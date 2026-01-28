@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidden Ties Plus - Connect Deeper</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="background-gradient"></div>
+    <div class="floating-hearts"></div>
+    
+    <header class="header">
+        <div class="logo">
+            <span class="logo-icon">💕</span>
+            <span class="logo-text">Hidden Ties <span class="plus">Plus</span></span>
+        </div>
+        <nav class="nav">
+            <a href="{{ url_for('about') }}" class="nav-link">How to Play</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1 class="hero-title">Discover What<br><span class="gradient-text">Connects You</span></h1>
+            <p class="hero-subtitle">A game that sparks conversations, ignites passion, and brings you closer together.</p>
+        </section>
+
+        <form action="{{ url_for('play') }}" method="POST" id="gameForm">
+            <!-- Step 1: Choose Packs -->
+            <section class="setup-section">
+                <div class="section-header">
+                    <span class="step-number">1</span>
+                    <h2>Choose Your Decks</h2>
+                    <p class="section-desc">Select one or more card packs for your session</p>
+                </div>
+                
+                <div class="packs-grid">
+                    {% for pack in packs %}
+                    <label class="pack-card" data-spicy="{{ pack.spicy_level | default(1) }}">
+                        <input type="checkbox" name="packs" value="{{ pack.filename }}" class="pack-checkbox">
+                        <div class="pack-content">
+                            <div class="pack-header">
+                                <span class="pack-emoji">{{ pack.emoji | default('🎴') }}</span>
+                                {% if pack.badge %}
+                                <span class="pack-badge badge-{{ pack.badge | lower | replace('+', '') }}">{{ pack.badge }}</span>
+                                {% endif %}
+                            </div>
+                            <h3 class="pack-name">{{ pack.pack_name }}</h3>
+                            <p class="pack-desc">{{ pack.pack_description }}</p>
+                            <div class="pack-footer">
+                                <span class="card-count">{{ pack.count }} cards</span>
+                                <div class="spicy-meter">
+                                    {% for i in range(5) %}
+                                    <span class="spicy-dot {% if i < pack.spicy_level | default(1) %}active{% endif %}">🔥</span>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pack-selected-indicator">✓</div>
+                    </label>
+                    {% endfor %}
+                </div>
+            </section>
+
+            <!-- Step 2: Player Setup -->
+            <section class="setup-section">
+                <div class="section-header">
+                    <span class="step-number">2</span>
+                    <h2>Who's Playing?</h2>
+                    <p class="section-desc">Set up your game session</p>
+                </div>
+                
+                <div class="settings-grid">
+                    <div class="setting-group">
+                        <label class="setting-label">Number of Players</label>
+                        <div class="option-pills">
+                            {% for i in range(2, 11) %}
+                            <label class="pill">
+                                <input type="radio" name="player_count" value="{{ i }}" {% if i == 2 %}checked{% endif %}>
+                                <span>{{ i }}</span>
+                            </label>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    
+                    <div class="setting-group">
+                        <label class="setting-label">Cards Per Person</label>
+                        <div class="option-pills">
+                            {% for i in [5, 10, 15, 20, 25, 30] %}
+                            <label class="pill">
+                                <input type="radio" name="cards_per_player" value="{{ i }}" {% if i == 10 %}checked{% endif %}>
+                                <span>{{ i }}</span>
+                            </label>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Step 3: Game Mode -->
+            <section class="setup-section">
+                <div class="section-header">
+                    <span class="step-number">3</span>
+                    <h2>Game Mode</h2>
+                    <p class="section-desc">How do you want to play?</p>
+                </div>
+                
+                <div class="mode-grid">
+                    <label class="mode-card">
+                        <input type="radio" name="game_mode" value="classic" checked>
+                        <div class="mode-content">
+                            <span class="mode-emoji">🎯</span>
+                            <h4>Classic</h4>
+                            <p>Take turns answering questions</p>
+                        </div>
+                    </label>
+                    <label class="mode-card">
+                        <input type="radio" name="game_mode" value="hot_seat">
+                        <div class="mode-content">
+                            <span class="mode-emoji">🔥</span>
+                            <h4>Hot Seat</h4>
+                            <p>Everyone answers the same question</p>
+                        </div>
+                    </label>
+                    <label class="mode-card">
+                        <input type="radio" name="game_mode" value="couples">
+                        <div class="mode-content">
+                            <span class="mode-emoji">💑</span>
+                            <h4>Couples</h4>
+                            <p>Intimate mode for two</p>
+                        </div>
+                    </label>
+                    <label class="mode-card">
+                        <input type="radio" name="game_mode" value="wild">
+                        <div class="mode-content">
+                            <span class="mode-emoji">🎲</span>
+                            <h4>Wild Card</h4>
+                            <p>Random player each turn</p>
+                        </div>
+                    </label>
+                </div>
+            </section>
+
+            <!-- Start Button -->
+            <div class="start-section">
+                <button type="submit" class="start-button" id="startBtn" disabled>
+                    <span class="btn-text">Select at least one deck to start</span>
+                    <span class="btn-icon">→</span>
+                </button>
+            </div>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <p>Made with 💕 for deeper connections</p>
+        <p class="disclaimer">🔞 Some content is for mature audiences (18+). Play responsibly.</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/home.js') }}"></script>
+</body>
+</html>

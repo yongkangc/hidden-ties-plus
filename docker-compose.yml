@@ -1,0 +1,10 @@
+services:
+  app:
+    build:
+      context: .
+      network: host
+    container_name: hidden-ties-plus
+    restart: unless-stopped
+    network_mode: host
+    environment:
+      - FLASK_ENV=production

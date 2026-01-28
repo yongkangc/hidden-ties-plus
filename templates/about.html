@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Play - Hidden Ties Plus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="background-gradient"></div>
+    
+    <header class="header">
+        <a href="{{ url_for('home') }}" class="logo">
+            <span class="logo-icon">💕</span>
+            <span class="logo-text">Hidden Ties <span class="plus">Plus</span></span>
+        </a>
+    </header>
+
+    <main class="container about-container">
+        <h1 class="page-title">How to Play</h1>
+        
+        <div class="about-grid">
+            <section class="about-card">
+                <div class="about-icon">🎴</div>
+                <h3>1. Choose Your Decks</h3>
+                <p>Select from our curated card packs. Mix and match to create your perfect game - from light icebreakers to spicy challenges.</p>
+            </section>
+            
+            <section class="about-card">
+                <div class="about-icon">👥</div>
+                <h3>2. Set Up Players</h3>
+                <p>Choose how many people are playing and how many cards each person will answer. More cards = longer game!</p>
+            </section>
+            
+            <section class="about-card">
+                <div class="about-icon">🎯</div>
+                <h3>3. Pick a Mode</h3>
+                <p>Classic turn-based, Hot Seat where everyone answers, Couples for intimate moments, or Wild Card for random fun.</p>
+            </section>
+            
+            <section class="about-card">
+                <div class="about-icon">💬</div>
+                <h3>4. Answer Honestly</h3>
+                <p>When it's your turn, read the card and answer honestly. No judgment - just connection. Skip any card you're not comfortable with.</p>
+            </section>
+        </div>
+
+        <section class="rules-section">
+            <h2>🔥 Spice Levels Explained</h2>
+            <div class="spice-guide">
+                <div class="spice-item">
+                    <span class="spice-dots">🔥</span>
+                    <div class="spice-info">
+                        <strong>Mild</strong>
+                        <p>Family-friendly, great for icebreakers</p>
+                    </div>
+                </div>
+                <div class="spice-item">
+                    <span class="spice-dots">🔥🔥</span>
+                    <div class="spice-info">
+                        <strong>Warm</strong>
+                        <p>Deeper questions, some vulnerability</p>
+                    </div>
+                </div>
+                <div class="spice-item">
+                    <span class="spice-dots">🔥🔥🔥</span>
+                    <div class="spice-info">
+                        <strong>Hot</strong>
+                        <p>Intimate topics, for close friends</p>
+                    </div>
+                </div>
+                <div class="spice-item">
+                    <span class="spice-dots">🔥🔥🔥🔥</span>
+                    <div class="spice-info">
+                        <strong>Spicy</strong>
+                        <p>Adult content, 18+ only</p>
+                    </div>
+                </div>
+                <div class="spice-item">
+                    <span class="spice-dots">🔥🔥🔥🔥🔥</span>
+                    <div class="spice-info">
+                        <strong>Extreme</strong>
+                        <p>No limits, for adventurous couples</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tips-section">
+            <h2>💡 Tips for the Best Experience</h2>
+            <ul class="tips-list">
+                <li>Create a cozy, private atmosphere</li>
+                <li>Put phones away (except the game device)</li>
+                <li>Have drinks ready - it helps loosen up!</li>
+                <li>Respect boundaries - skip cards if needed</li>
+                <li>Listen actively when others share</li>
+                <li>Keep what's shared in the game private</li>
+            </ul>
+        </section>
+
+        <a href="{{ url_for('home') }}" class="back-home-btn">← Back to Game Setup</a>
+    </main>
+
+    <footer class="footer">
+        <p>Made with 💕 for deeper connections</p>
+    </footer>
+</body>
+</html>

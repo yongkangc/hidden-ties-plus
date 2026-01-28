@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Playing - Hidden Ties Plus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/play.css') }}">
+</head>
+<body class="play-body">
+    <div class="play-background"></div>
+    
+    <!-- Top Bar -->
+    <header class="play-header">
+        <a href="{{ url_for('home') }}" class="back-btn">
+            <span>←</span> Exit
+        </a>
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <span class="progress-text" id="progressText">1 / {{ questions | length }}</span>
+        </div>
+        <div class="player-indicator" id="playerIndicator">
+            Player <span id="currentPlayer">1</span>
+        </div>
+    </header>
+
+    <!-- Main Card Area -->
+    <main class="play-container">
+        <div class="card-stack">
+            <div class="card-wrapper" id="cardWrapper">
+                <div class="game-card" id="gameCard">
+                    <div class="card-inner">
+                        <div class="card-type-badge" id="cardTypeBadge">Question</div>
+                        <div class="card-text" id="cardText"></div>
+                        <div class="card-pack" id="cardPack"></div>
+                    </div>
+                    <div class="card-glow"></div>
+                </div>
+            </div>
+            
+            <!-- Swipe Hints -->
+            <div class="swipe-hint left">
+                <span>←</span>
+            </div>
+            <div class="swipe-hint right">
+                <span>→</span>
+            </div>
+        </div>
+
+        <!-- Navigation Controls -->
+        <div class="controls">
+            <button class="control-btn prev" id="prevBtn" disabled>
+                <span class="control-icon">←</span>
+                <span class="control-text">Previous</span>
+            </button>
+            
+            <button class="control-btn skip" id="skipBtn">
+                <span class="control-icon">↻</span>
+                <span class="control-text">Skip</span>
+            </button>
+            
+            <button class="control-btn next" id="nextBtn">
+                <span class="control-text">Next</span>
+                <span class="control-icon">→</span>
+            </button>
+        </div>
+    </main>
+
+    <!-- Game Complete Modal -->
+    <div class="modal" id="completeModal">
+        <div class="modal-content">
+            <div class="modal-emoji">🎉</div>
+            <h2>Game Complete!</h2>
+            <p>You've gone through all {{ questions | length }} cards.</p>
+            <div class="modal-actions">
+                <a href="{{ url_for('home') }}" class="modal-btn secondary">New Game</a>
+                <button class="modal-btn primary" onclick="restartGame()">Play Again</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pass Phone Modal (for multiplayer) -->
+    <div class="modal" id="passModal">
+        <div class="modal-content pass-modal">
+            <div class="modal-emoji">📱</div>
+            <h2>Pass to Player <span id="nextPlayerNum">2</span></h2>
+            <p>Hand the phone to the next player</p>
+            <button class="modal-btn primary" onclick="closePassModal()">I'm Ready</button>
+        </div>
+    </div>
+
+    <script>
+        const questions = {{ questions | tojson | safe }};
+        const playerCount = {{ player_count }};
+        const gameMode = "{{ game_mode }}";
+    </script>
+    <script src="{{ url_for('static', filename='js/play.js') }}"></script>
+</body>
+</html>
