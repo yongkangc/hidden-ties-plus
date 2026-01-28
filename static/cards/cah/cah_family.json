@@ -1,0 +1,1739 @@
+{
+  "pack_name": "CAH - Family Edition",
+  "pack_description": "The family-friendly version of Cards Against Humanity",
+  "emoji": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66",
+  "order": 53,
+  "spicy_level": 5,
+  "badge": "CAH",
+  "category": "cah",
+  "questions": [
+    {
+      "text": "_? No.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Alright, which one of you little terds is responsible for _?!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "At school, I'm just Mandy. But at summer camp, I'm \"_ Mandy.\"",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Attention students. This is Principal Butthead. Please remember that we do not alow _ in the hallway. Thank you.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Beep beep! _ coming through!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Before I attend your sleepover, I must inform you: toys vore me, and I don't care for sweets. I prefer _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Bow before me, for I am the Queen of _!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Boys? No. _? Yes!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "CHUNGO FEEL SICK. CHUNGO NO LIKE _ ANYMORE.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Class, pay close attention. I will now demonstrate the physics of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Come on, Danny. All the cool kids are doin' it. Wanna try _?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Come with me, and I will show you a world of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Coming soon! Batman vs. _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Coming to theaters this holiday season, \"Star Wars: The Rise of _.\"",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Did you know that Benjamin Franklin invented _?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "ENOUGH! I will not let _ tear this family apart!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Ew. Grandpa smells like _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Foolish child! Did you think you could escape from _?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Guys, stop it! There's nothing funny about _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Hey guys. I just want to tell all my followers who are struggling wit _: it DOES get better.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Hey, check out my band! We're called \"Rage Against _.\"",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Hey, kids. I'm Sensei Todd. Today, I'm gonna teach you how to defend yourself against _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Huddle up, Wildcats! They may be bigger. They may be faster. But we've got a secret weapon: _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "I don't really know what my mom's job is, but I think it has something to do with _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "I have invented a new sport. I call it \"_ ball.\"",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "I lost my arm in a _ accident.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Isn't this great, honey? Just you, me, the kids, and _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "It's BIG.\nIt's SCARY.\nIt's _!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "James Bond will return in \"No Time for _.\"",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Joey, look out behind you! It's _!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Kids, Dad is trying something new this week. It's called \"_\".",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Ladies and gentlemen, I have discovered something amazing. I have discovered _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Madam President, we've run out of time. The only option is _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Me and my friends don't play with dolls anymore. We're into _ now.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "ME HUNGRY. ME WANT _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Mom? You have to come pick me up! There's _ at this party.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Moms love _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "My dad and I enjoy _ together.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "My favorite book is \"The Amazing Adventures of _.\"",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "MY NAME IS CHUNGO. CHUNGO LOVE _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "My name is Peter Parker. I was bitten by a radioactive spider, and now I'm _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Never fear, Captain _ is here!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "New from Mattel! It's BUNGO: The Game of _.\"",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Next from J.K. Rowling: Harry Potter and the chamber of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Now in bookstores: Nancy Drew and the Mystery of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Oh Dark Lord, we show out devotion with a humble offering of _!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Oh, no thank you, Mrs. Lee. I've had plenty of _ for now.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "One nation, under God, indivisible, with liberty and _ for all.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Outback Steakhouse: No rules. Just _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Police! Arrest this man! He's _!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Run, run, as fast as you can. You can't catch me, I'm _!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Shut up, Becky! At least I'm not _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Thanks for watching! IF you want to seee more vids of _, smash that subscribe.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "The easiest way to tell me and my twin apart is that I have a freckle on my cheek and she's _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "The warm August air was filled with change. Things were different, for Emily was now _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "There's nothing better than a peanut butter and _ sandwich.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "They call me \"Mr. _.\"",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "This is gonna be the best sleepover ever. Once Mom and Dad go to bed, it's time for _!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Time to put on my favorite t-shirt, the one that says \"I heart _.\"",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Today we honor St. Mungo, the patron saint of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "We're off to see the wizard, the wonderful wizard of _!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Well, look at what we have here! A big fancy man walkin' like he's _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What killed Old Jim?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What's about to take this school to the next level?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "When i pooped, what came out?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Where in the world is _?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Whoa there, partner! Looks like _ spooked my horse.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "You don't love me, Sam. All you care about is _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "14 cheeseburgers, 6 large fries, and a medium Sprite.",
+      "type": "answer"
+    },
+    {
+      "text": "A baby boomer.",
+      "type": "answer"
+    },
+    {
+      "text": "A baby with a full mustache.",
+      "type": "answer"
+    },
+    {
+      "text": "A beard longer than 12 inches.",
+      "type": "answer"
+    },
+    {
+      "text": "A big sad dragon with no friends.",
+      "type": "answer"
+    },
+    {
+      "text": "A big, and I mean BIG turle.",
+      "type": "answer"
+    },
+    {
+      "text": "A bird pooping on the president's head.",
+      "type": "answer"
+    },
+    {
+      "text": "A black hole.",
+      "type": "answer"
+    },
+    {
+      "text": "A bunch of dead squirrels on a trampoline.",
+      "type": "answer"
+    },
+    {
+      "text": "A butt that eats underwear.",
+      "type": "answer"
+    },
+    {
+      "text": "A corn dog.",
+      "type": "answer"
+    },
+    {
+      "text": "A cowboy who is half boy, half cow.",
+      "type": "answer"
+    },
+    {
+      "text": "A dead body.",
+      "type": "answer"
+    },
+    {
+      "text": "A dead whale.",
+      "type": "answer"
+    },
+    {
+      "text": "A Democrat.",
+      "type": "answer"
+    },
+    {
+      "text": "A dollw that pees real pee!",
+      "type": "answer"
+    },
+    {
+      "text": "A fake kid made out of wood.",
+      "type": "answer"
+    },
+    {
+      "text": "A flamethrower.",
+      "type": "answer"
+    },
+    {
+      "text": "A gerbil named \"Gerbil.\"",
+      "type": "answer"
+    },
+    {
+      "text": "A hot air balloon powered by fart gas.",
+      "type": "answer"
+    },
+    {
+      "text": "A huge bitch.",
+      "type": "answer"
+    },
+    {
+      "text": "A hundred screaming monkeys.",
+      "type": "answer"
+    },
+    {
+      "text": "A killer clown.",
+      "type": "answer"
+    },
+    {
+      "text": "A long, hot pee.",
+      "type": "answer"
+    },
+    {
+      "text": "A long, long snake.",
+      "type": "answer"
+    },
+    {
+      "text": "A naked lady in a painting.",
+      "type": "answer"
+    },
+    {
+      "text": "A nice, warm glass of pee.",
+      "type": "answer"
+    },
+    {
+      "text": "A plant-devouring space-worm named \"Rachel.\"",
+      "type": "answer"
+    },
+    {
+      "text": "A poop as big as mom.",
+      "type": "answer"
+    },
+    {
+      "text": "A pregnant person.",
+      "type": "answer"
+    },
+    {
+      "text": "A Republican.",
+      "type": "answer"
+    },
+    {
+      "text": "A scoop of tuna.",
+      "type": "answer"
+    },
+    {
+      "text": "A screaming soccer dad.",
+      "type": "answer"
+    },
+    {
+      "text": "A super angry cat I found outside.",
+      "type": "answer"
+    },
+    {
+      "text": "A turd that just won't flush.",
+      "type": "answer"
+    },
+    {
+      "text": "A whole thing of cottage cheese.",
+      "type": "answer"
+    },
+    {
+      "text": "A wise, old woman with no teeth and cloudy eyes.",
+      "type": "answer"
+    },
+    {
+      "text": "Abraham Lincoln.",
+      "type": "answer"
+    },
+    {
+      "text": "An invisible giant who takes giant, visible poops.",
+      "type": "answer"
+    },
+    {
+      "text": "An old, dirty cat with bad breath.",
+      "type": "answer"
+    },
+    {
+      "text": "An order of mozzarella sticks.",
+      "type": "answer"
+    },
+    {
+      "text": "An owl that hates you.",
+      "type": "answer"
+    },
+    {
+      "text": "Ariana Grande.",
+      "type": "answer"
+    },
+    {
+      "text": "Aunt Linda.",
+      "type": "answer"
+    },
+    {
+      "text": "Baby Yoda.",
+      "type": "answer"
+    },
+    {
+      "text": "Bad parenting.",
+      "type": "answer"
+    },
+    {
+      "text": "Balls. Big balls. Really big balls.",
+      "type": "answer"
+    },
+    {
+      "text": "Barf.",
+      "type": "answer"
+    },
+    {
+      "text": "Barfing into a popcorn bucket.",
+      "type": "answer"
+    },
+    {
+      "text": "Batman.",
+      "type": "answer"
+    },
+    {
+      "text": "Beautiful grandma.",
+      "type": "answer"
+    },
+    {
+      "text": "Becoming taller and stronger than Father.",
+      "type": "answer"
+    },
+    {
+      "text": "Becoming the president.",
+      "type": "answer"
+    },
+    {
+      "text": "Beer.",
+      "type": "answer"
+    },
+    {
+      "text": "Being adopted.",
+      "type": "answer"
+    },
+    {
+      "text": "Being dead.",
+      "type": "answer"
+    },
+    {
+      "text": "Being famous on YouTube.",
+      "type": "answer"
+    },
+    {
+      "text": "Being French, hoh-hoh-hoh!",
+      "type": "answer"
+    },
+    {
+      "text": "Being super serious right now.",
+      "type": "answer"
+    },
+    {
+      "text": "Bench pressing a horse.",
+      "type": "answer"
+    },
+    {
+      "text": "Beyonce's Superbowl performance.",
+      "type": "answer"
+    },
+    {
+      "text": "Big butt cheeks filled with poop.",
+      "type": "answer"
+    },
+    {
+      "text": "Big Mississippi boys.",
+      "type": "answer"
+    },
+    {
+      "text": "Big Randy.",
+      "type": "answer"
+    },
+    {
+      "text": "Big, juicy pimples.",
+      "type": "answer"
+    },
+    {
+      "text": "Big, slappy hands.",
+      "type": "answer"
+    },
+    {
+      "text": "Biting a rich person.",
+      "type": "answer"
+    },
+    {
+      "text": "Blasting farts in the powder room.",
+      "type": "answer"
+    },
+    {
+      "text": "Blasting my math teacher into the sun.",
+      "type": "answer"
+    },
+    {
+      "text": "Bleeding.",
+      "type": "answer"
+    },
+    {
+      "text": "Blossoming into a beautiful young man.",
+      "type": "answer"
+    },
+    {
+      "text": "Blowing up the Moon.",
+      "type": "answer"
+    },
+    {
+      "text": "Boobies.",
+      "type": "answer"
+    },
+    {
+      "text": "Boogie-boarding down Huka Falls",
+      "type": "answer"
+    },
+    {
+      "text": "Boys.",
+      "type": "answer"
+    },
+    {
+      "text": "Building a nuclear bunker at my parents' house.",
+      "type": "answer"
+    },
+    {
+      "text": "BULBASAUR.",
+      "type": "answer"
+    },
+    {
+      "text": "Burning books.",
+      "type": "answer"
+    },
+    {
+      "text": "Bursting into flames.",
+      "type": "answer"
+    },
+    {
+      "text": "Butt hair.",
+      "type": "answer"
+    },
+    {
+      "text": "Butt surgery.",
+      "type": "answer"
+    },
+    {
+      "text": "Butthole.",
+      "type": "answer"
+    },
+    {
+      "text": "Butts of all shapes and sizes.",
+      "type": "answer"
+    },
+    {
+      "text": "Cat pee.",
+      "type": "answer"
+    },
+    {
+      "text": "Cavities.",
+      "type": "answer"
+    },
+    {
+      "text": "Cheeto fingers.",
+      "type": "answer"
+    },
+    {
+      "text": "Chest hair.",
+      "type": "answer"
+    },
+    {
+      "text": "Chinese campaign clothing.",
+      "type": "answer"
+    },
+    {
+      "text": "Chugging a lava lamp.",
+      "type": "answer"
+    },
+    {
+      "text": "Chungo, the talking gorilla.",
+      "type": "answer"
+    },
+    {
+      "text": "Chunks.",
+      "type": "answer"
+    },
+    {
+      "text": "Cigarettes.",
+      "type": "answer"
+    },
+    {
+      "text": "Climate change.",
+      "type": "answer"
+    },
+    {
+      "text": "Climbing into a cow's butt.",
+      "type": "answer"
+    },
+    {
+      "text": "Coffee.",
+      "type": "answer"
+    },
+    {
+      "text": "Comign back from the dead.",
+      "type": "answer"
+    },
+    {
+      "text": "Completely drunk organizers.",
+      "type": "answer"
+    },
+    {
+      "text": "Covering myself with ketchup and mustard because I am a hot dog.",
+      "type": "answer"
+    },
+    {
+      "text": "Crab-walking from the toilet to get more toilet paper.",
+      "type": "answer"
+    },
+    {
+      "text": "Crying in the bathroom.",
+      "type": "answer"
+    },
+    {
+      "text": "Dad's famous poops.",
+      "type": "answer"
+    },
+    {
+      "text": "Dad's meatloaf.",
+      "type": "answer"
+    },
+    {
+      "text": "Dancing with my son.",
+      "type": "answer"
+    },
+    {
+      "text": "Debating cartoon logic",
+      "type": "answer"
+    },
+    {
+      "text": "Diarrhea.",
+      "type": "answer"
+    },
+    {
+      "text": "Doing karate.",
+      "type": "answer"
+    },
+    {
+      "text": "Dreaming about boys.",
+      "type": "answer"
+    },
+    {
+      "text": "Drinkig a whole bottle of ranch.",
+      "type": "answer"
+    },
+    {
+      "text": "Drinking gasoline to see what it tastes like.",
+      "type": "answer"
+    },
+    {
+      "text": "Drinking out of the toilet and eating rubbish.",
+      "type": "answer"
+    },
+    {
+      "text": "Dump cake.",
+      "type": "answer"
+    },
+    {
+      "text": "Dwayne \"The Rock\" Johnson's acting career.",
+      "type": "answer"
+    },
+    {
+      "text": "Dying of old age.",
+      "type": "answer"
+    },
+    {
+      "text": "Eating a baby.",
+      "type": "answer"
+    },
+    {
+      "text": "Eating a whole roll of toilet paper.",
+      "type": "answer"
+    },
+    {
+      "text": "Eating toenail clippings.",
+      "type": "answer"
+    },
+    {
+      "text": "Elegant party hats.",
+      "type": "answer"
+    },
+    {
+      "text": "Evil.",
+      "type": "answer"
+    },
+    {
+      "text": "Failure.",
+      "type": "answer"
+    },
+    {
+      "text": "Fake news.",
+      "type": "answer"
+    },
+    {
+      "text": "Falling into a pit of waffles.",
+      "type": "answer"
+    },
+    {
+      "text": "Famous peanut scientist George Washington Carver.",
+      "type": "answer"
+    },
+    {
+      "text": "Farting a lot today.",
+      "type": "answer"
+    },
+    {
+      "text": "Farting Antelopes",
+      "type": "answer"
+    },
+    {
+      "text": "Farting, barfing, and passing out.",
+      "type": "answer"
+    },
+    {
+      "text": "Fat stacks of cash.",
+      "type": "answer"
+    },
+    {
+      "text": "Father's forbidden chocolates.",
+      "type": "answer"
+    },
+    {
+      "text": "Feasting upon human flesh.",
+      "type": "answer"
+    },
+    {
+      "text": "Feminist men.",
+      "type": "answer"
+    },
+    {
+      "text": "Filling my butt with spaghetti.",
+      "type": "answer"
+    },
+    {
+      "text": "Finger teeth.",
+      "type": "answer"
+    },
+    {
+      "text": "Fire farts.",
+      "type": "answer"
+    },
+    {
+      "text": "Flamin' Hot Cheetos.",
+      "type": "answer"
+    },
+    {
+      "text": "Floating through the void of space and time.",
+      "type": "answer"
+    },
+    {
+      "text": "Flushing myself down the toilet.",
+      "type": "answer"
+    },
+    {
+      "text": "Forgetting to put on underwear.",
+      "type": "answer"
+    },
+    {
+      "text": "Fortnite.",
+      "type": "answer"
+    },
+    {
+      "text": "Freeing a fart from its butt prison.",
+      "type": "answer"
+    },
+    {
+      "text": "Garbage.",
+      "type": "answer"
+    },
+    {
+      "text": "Getting a girlfriend.",
+      "type": "answer"
+    },
+    {
+      "text": "Getting a skull tattoo.",
+      "type": "answer"
+    },
+    {
+      "text": "Getting crushed by a piano.",
+      "type": "answer"
+    },
+    {
+      "text": "Getting drunk.",
+      "type": "answer"
+    },
+    {
+      "text": "Getting kicked in the nuts.",
+      "type": "answer"
+    },
+    {
+      "text": "Getting married.",
+      "type": "answer"
+    },
+    {
+      "text": "Getting my ponytail stuck in my butt.",
+      "type": "answer"
+    },
+    {
+      "text": "Getting naked.",
+      "type": "answer"
+    },
+    {
+      "text": "Getting run over by a train.",
+      "type": "answer"
+    },
+    {
+      "text": "Getting scalded in the fave with hot beans.",
+      "type": "answer"
+    },
+    {
+      "text": "Getting skin cancer after 5 minutes at Takapuna beach",
+      "type": "answer"
+    },
+    {
+      "text": "Getting slapped with a fish.",
+      "type": "answer"
+    },
+    {
+      "text": "Getting struck in the toilet.",
+      "type": "answer"
+    },
+    {
+      "text": "Giggling and farting and slurping milkshakes.",
+      "type": "answer"
+    },
+    {
+      "text": "Girly drinks",
+      "type": "answer"
+    },
+    {
+      "text": "Glen's fabulous body.",
+      "type": "answer"
+    },
+    {
+      "text": "Gluing my butt cheeks together.",
+      "type": "answer"
+    },
+    {
+      "text": "Going around sniffing people's armpits.",
+      "type": "answer"
+    },
+    {
+      "text": "Going ballistic",
+      "type": "answer"
+    },
+    {
+      "text": "Going beast mode.",
+      "type": "answer"
+    },
+    {
+      "text": "Going night night.",
+      "type": "answer"
+    },
+    {
+      "text": "Going to Hobbiton for your hairy foot fetish",
+      "type": "answer"
+    },
+    {
+      "text": "Grandma panties.",
+      "type": "answer"
+    },
+    {
+      "text": "Grandpa.",
+      "type": "answer"
+    },
+    {
+      "text": "Greta Thunberg.",
+      "type": "answer"
+    },
+    {
+      "text": "Ham.",
+      "type": "answer"
+    },
+    {
+      "text": "Happy Endings.",
+      "type": "answer"
+    },
+    {
+      "text": "Harry Potter.",
+      "type": "answer"
+    },
+    {
+      "text": "Having a baby.",
+      "type": "answer"
+    },
+    {
+      "text": "Having a really big head.",
+      "type": "answer"
+    },
+    {
+      "text": "Having many husbands.",
+      "type": "answer"
+    },
+    {
+      "text": "Having no bones.",
+      "type": "answer"
+    },
+    {
+      "text": "Having no friends.",
+      "type": "answer"
+    },
+    {
+      "text": "Having to pee so bad.",
+      "type": "answer"
+    },
+    {
+      "text": "Hogs.",
+      "type": "answer"
+    },
+    {
+      "text": "Horrible allergies.",
+      "type": "answer"
+    },
+    {
+      "text": "Hot, fresh doodies.",
+      "type": "answer"
+    },
+    {
+      "text": "How much wood a woodchuck would chuck if a woodchuck could chuck wood.",
+      "type": "answer"
+    },
+    {
+      "text": "Huge pants.",
+      "type": "answer"
+    },
+    {
+      "text": "Huge, hairy men.",
+      "type": "answer"
+    },
+    {
+      "text": "Hurting people's feelings.",
+      "type": "answer"
+    },
+    {
+      "text": "Idiots.",
+      "type": "answer"
+    },
+    {
+      "text": "Illegal drugs.",
+      "type": "answer"
+    },
+    {
+      "text": "Jesus's death.",
+      "type": "answer"
+    },
+    {
+      "text": "Johnny Depp, dancing all sexy.",
+      "type": "answer"
+    },
+    {
+      "text": "JoJo Siwa.",
+      "type": "answer"
+    },
+    {
+      "text": "Josh.",
+      "type": "answer"
+    },
+    {
+      "text": "Kevin's mom.",
+      "type": "answer"
+    },
+    {
+      "text": "Kisisng mom on the lips.",
+      "type": "answer"
+    },
+    {
+      "text": "Knives.",
+      "type": "answer"
+    },
+    {
+      "text": "Legs.",
+      "type": "answer"
+    },
+    {
+      "text": "Lice.",
+      "type": "answer"
+    },
+    {
+      "text": "Licking a used bandaid.",
+      "type": "answer"
+    },
+    {
+      "text": "Lighting stuff on fire.",
+      "type": "answer"
+    },
+    {
+      "text": "Literally ruining my life.",
+      "type": "answer"
+    },
+    {
+      "text": "Living in a pineapple under the sea.",
+      "type": "answer"
+    },
+    {
+      "text": "Living in the dumpster.",
+      "type": "answer"
+    },
+    {
+      "text": "Locking Mother in the pantry.",
+      "type": "answer"
+    },
+    {
+      "text": "love's quick pants",
+      "type": "answer"
+    },
+    {
+      "text": "Making out in a closet.",
+      "type": "answer"
+    },
+    {
+      "text": "Many wolves.",
+      "type": "answer"
+    },
+    {
+      "text": "Martin Luther King Jr.",
+      "type": "answer"
+    },
+    {
+      "text": "Mashing a banana into your belly button.",
+      "type": "answer"
+    },
+    {
+      "text": "Mayonaise.",
+      "type": "answer"
+    },
+    {
+      "text": "Me, your dad.",
+      "type": "answer"
+    },
+    {
+      "text": "Mean people",
+      "type": "answer"
+    },
+    {
+      "text": "Mom's butt.",
+      "type": "answer"
+    },
+    {
+      "text": "Mom's friend, Donna.",
+      "type": "answer"
+    },
+    {
+      "text": "Mom's new haircut.",
+      "type": "answer"
+    },
+    {
+      "text": "Most of a horse.",
+      "type": "answer"
+    },
+    {
+      "text": "Moving to Ohio.",
+      "type": "answer"
+    },
+    {
+      "text": "Mowing the stupid lawn.",
+      "type": "answer"
+    },
+    {
+      "text": "Murdering.",
+      "type": "answer"
+    },
+    {
+      "text": "My annoying brother.",
+      "type": "answer"
+    },
+    {
+      "text": "My annoying sister.",
+      "type": "answer"
+    },
+    {
+      "text": "My big donkey brother.",
+      "type": "answer"
+    },
+    {
+      "text": "My father, who is a walrus.",
+      "type": "answer"
+    },
+    {
+      "text": "My future husband.",
+      "type": "answer"
+    },
+    {
+      "text": "My girlfriend, who goes to another school.",
+      "type": "answer"
+    },
+    {
+      "text": "My sister's stupid boyfriend.",
+      "type": "answer"
+    },
+    {
+      "text": "Naked people.",
+      "type": "answer"
+    },
+    {
+      "text": "Never showering.",
+      "type": "answer"
+    },
+    {
+      "text": "Nipples.",
+      "type": "answer"
+    },
+    {
+      "text": "Not wearing trousers.",
+      "type": "answer"
+    },
+    {
+      "text": "Nothing. Absolutely nothing.",
+      "type": "answer"
+    },
+    {
+      "text": "Nunchucks.",
+      "type": "answer"
+    },
+    {
+      "text": "Obama.",
+      "type": "answer"
+    },
+    {
+      "text": "Old Jim's Steamy Butt Sauce.",
+      "type": "answer"
+    },
+    {
+      "text": "Old people.",
+      "type": "answer"
+    },
+    {
+      "text": "One long hair growing out of a mole.",
+      "type": "answer"
+    },
+    {
+      "text": "One tought mama.",
+      "type": "answer"
+    },
+    {
+      "text": "One weird lookin' toe.",
+      "type": "answer"
+    },
+    {
+      "text": "Only beans.",
+      "type": "answer"
+    },
+    {
+      "text": "Overthrowing the government.",
+      "type": "answer"
+    },
+    {
+      "text": "Pee-pee.",
+      "type": "answer"
+    },
+    {
+      "text": "Peeing in the cat's litter box.",
+      "type": "answer"
+    },
+    {
+      "text": "Peeing into everyone's mouth.",
+      "type": "answer"
+    },
+    {
+      "text": "Peer pressure.",
+      "type": "answer"
+    },
+    {
+      "text": "Person milk.",
+      "type": "answer"
+    },
+    {
+      "text": "Pizza.",
+      "type": "answer"
+    },
+    {
+      "text": "Playing trumpet for the mayor.",
+      "type": "answer"
+    },
+    {
+      "text": "Polka dot underwear",
+      "type": "answer"
+    },
+    {
+      "text": "Poo-poo.",
+      "type": "answer"
+    },
+    {
+      "text": "Pooping barf forever.",
+      "type": "answer"
+    },
+    {
+      "text": "Pooping on the neighbor's lawn.",
+      "type": "answer"
+    },
+    {
+      "text": "Pork.",
+      "type": "answer"
+    },
+    {
+      "text": "Poseidon, Lord of the Sea.",
+      "type": "answer"
+    },
+    {
+      "text": "Principal Butthead.",
+      "type": "answer"
+    },
+    {
+      "text": "Pubes held together in a little ponytail holder.",
+      "type": "answer"
+    },
+    {
+      "text": "Punching a guy through a wall.",
+      "type": "answer"
+    },
+    {
+      "text": "Punching everyone.",
+      "type": "answer"
+    },
+    {
+      "text": "Putting my brain into the body of a tiger.",
+      "type": "answer"
+    },
+    {
+      "text": "Putting my butt on stuff.",
+      "type": "answer"
+    },
+    {
+      "text": "Questioning authority.",
+      "type": "answer"
+    },
+    {
+      "text": "Racism, sexism, and homophobia.",
+      "type": "answer"
+    },
+    {
+      "text": "Rated-R stuff.",
+      "type": "answer"
+    },
+    {
+      "text": "Respecting personal boundaries.",
+      "type": "answer"
+    },
+    {
+      "text": "Richi McCaw; the PM we want, but will never deserve",
+      "type": "answer"
+    },
+    {
+      "text": "Running away from home.",
+      "type": "answer"
+    },
+    {
+      "text": "Running full speed into a wall.",
+      "type": "answer"
+    },
+    {
+      "text": "Sacrificing Uncle Tim.",
+      "type": "answer"
+    },
+    {
+      "text": "Satan.",
+      "type": "answer"
+    },
+    {
+      "text": "Saving up my boogers for ten years and then building the world's largest booger.",
+      "type": "answer"
+    },
+    {
+      "text": "Screaming and screaming and never waking up.",
+      "type": "answer"
+    },
+    {
+      "text": "Screaming into a can of Pringles.",
+      "type": "answer"
+    },
+    {
+      "text": "Screaming the F-word.",
+      "type": "answer"
+    },
+    {
+      "text": "Seymour Butts.",
+      "type": "answer"
+    },
+    {
+      "text": "Sharks.",
+      "type": "answer"
+    },
+    {
+      "text": "Shaving Dad's back.",
+      "type": "answer"
+    },
+    {
+      "text": "Shoplifiting.",
+      "type": "answer"
+    },
+    {
+      "text": "Shrek.",
+      "type": "answer"
+    },
+    {
+      "text": "Shutting up.",
+      "type": "answer"
+    },
+    {
+      "text": "SILENCE!",
+      "type": "answer"
+    },
+    {
+      "text": "Sitting on a cake.",
+      "type": "answer"
+    },
+    {
+      "text": "Sitting on the toilet and going poop.",
+      "type": "answer"
+    },
+    {
+      "text": "Slapping that butt.",
+      "type": "answer"
+    },
+    {
+      "text": "Slowly turning into cheese.",
+      "type": "answer"
+    },
+    {
+      "text": "Smelling like onions.",
+      "type": "answer"
+    },
+    {
+      "text": "Sniffing a dog's butt.",
+      "type": "answer"
+    },
+    {
+      "text": "Social media.",
+      "type": "answer"
+    },
+    {
+      "text": "Some freakin' privacy.",
+      "type": "answer"
+    },
+    {
+      "text": "Soup.",
+      "type": "answer"
+    },
+    {
+      "text": "Space lasers.",
+      "type": "answer"
+    },
+    {
+      "text": "Spending my parent's hard-earned money.",
+      "type": "answer"
+    },
+    {
+      "text": "Spider-Man.",
+      "type": "answer"
+    },
+    {
+      "text": "Squirty cheese.",
+      "type": "answer"
+    },
+    {
+      "text": "Stank breath.",
+      "type": "answer"
+    },
+    {
+      "text": "Stealing people's money and going to jail.",
+      "type": "answer"
+    },
+    {
+      "text": "Stuff.",
+      "type": "answer"
+    },
+    {
+      "text": "Stuffing my underwear with pancakes.",
+      "type": "answer"
+    },
+    {
+      "text": "Supreme Court Justice Ruth Bader Ginsburg.",
+      "type": "answer"
+    },
+    {
+      "text": "Swords.",
+      "type": "answer"
+    },
+    {
+      "text": "Taking a dump in the pool.",
+      "type": "answer"
+    },
+    {
+      "text": "Teaching a chicken to kill.",
+      "type": "answer"
+    },
+    {
+      "text": "Teeny, tiny turds.",
+      "type": "answer"
+    },
+    {
+      "text": "The baby.",
+      "type": "answer"
+    },
+    {
+      "text": "The babysitter.",
+      "type": "answer"
+    },
+    {
+      "text": "The beautiful potato.",
+      "type": "answer"
+    },
+    {
+      "text": "The British.",
+      "type": "answer"
+    },
+    {
+      "text": "The bus driver.",
+      "type": "answer"
+    },
+    {
+      "text": "The Denver Satanic Gardens.",
+      "type": "answer"
+    },
+    {
+      "text": "The divorce.",
+      "type": "answer"
+    },
+    {
+      "text": "The entire state of Texas.",
+      "type": "answer"
+    },
+    {
+      "text": "The first female President of the United States of America.",
+      "type": "answer"
+    },
+    {
+      "text": "The garbage man.",
+      "type": "answer"
+    },
+    {
+      "text": "The gluteus maximus.",
+      "type": "answer"
+    },
+    {
+      "text": "the government's secret stockpile of confiscated marijuana",
+      "type": "answer"
+    },
+    {
+      "text": "The huge, stupid moon.",
+      "type": "answer"
+    },
+    {
+      "text": "The loose skin at the joing of the elbow known as \"the weenus.\"",
+      "type": "answer"
+    },
+    {
+      "text": "The middle finger.",
+      "type": "answer"
+    },
+    {
+      "text": "The octopus stuck to my face.",
+      "type": "answer"
+    },
+    {
+      "text": "The old man with the rake who lives down the dark and winding road.",
+      "type": "answer"
+    },
+    {
+      "text": "The oppressive system of capitalism.",
+      "type": "answer"
+    },
+    {
+      "text": "The police.",
+      "type": "answer"
+    },
+    {
+      "text": "The president.",
+      "type": "answer"
+    },
+    {
+      "text": "The Rwandan Genocide.",
+      "type": "answer"
+    },
+    {
+      "text": "The sweet honking or Karen's bassoon.",
+      "type": "answer"
+    },
+    {
+      "text": "The terrible winter of 1609.",
+      "type": "answer"
+    },
+    {
+      "text": "The underrepresentation of African-American dancers at Blues events.",
+      "type": "answer"
+    },
+    {
+      "text": "The way grandpa smells.",
+      "type": "answer"
+    },
+    {
+      "text": "The way I feel when I see Kyle.",
+      "type": "answer"
+    },
+    {
+      "text": "The wettest fart you ever heard.",
+      "type": "answer"
+    },
+    {
+      "text": "The whole family.",
+      "type": "answer"
+    },
+    {
+      "text": "Think, nasty burps.",
+      "type": "answer"
+    },
+    {
+      "text": "This goat, who is my friend.",
+      "type": "answer"
+    },
+    {
+      "text": "This stupid game.",
+      "type": "answer"
+    },
+    {
+      "text": "Thousands of lasagna",
+      "type": "answer"
+    },
+    {
+      "text": "Throwing up double peace signs with my besties at Starbucks.",
+      "type": "answer"
+    },
+    {
+      "text": "Tongue kissing.",
+      "type": "answer"
+    },
+    {
+      "text": "Tossed salads and scrambled eggs.",
+      "type": "answer"
+    },
+    {
+      "text": "Total crap.",
+      "type": "answer"
+    },
+    {
+      "text": "Trekkies",
+      "type": "answer"
+    },
+    {
+      "text": "Triangles.",
+      "type": "answer"
+    },
+    {
+      "text": "Trying to catch that dang raccoon.",
+      "type": "answer"
+    },
+    {
+      "text": "Turning 70 and still being fuckable.",
+      "type": "answer"
+    },
+    {
+      "text": "Twig and berries.",
+      "type": "answer"
+    },
+    {
+      "text": "Uncle Bob.",
+      "type": "answer"
+    },
+    {
+      "text": "Unleashing a hell demon that will destroy our world.",
+      "type": "answer"
+    },
+    {
+      "text": "Urban legends",
+      "type": "answer"
+    },
+    {
+      "text": "Using balloons as boobies.",
+      "type": "answer"
+    },
+    {
+      "text": "Using my butt as a microwave.",
+      "type": "answer"
+    },
+    {
+      "text": "Volleyball shorts.",
+      "type": "answer"
+    },
+    {
+      "text": "Waterboarding a Muslim.",
+      "type": "answer"
+    },
+    {
+      "text": "Whatever dad does at work.",
+      "type": "answer"
+    },
+    {
+      "text": "Wiping my butt.",
+      "type": "answer"
+    },
+    {
+      "text": "you'd look good in a  pearl necklace",
+      "type": "answer"
+    },
+    {
+      "text": "Your fce.",
+      "type": "answer"
+    },
+    {
+      "text": "Your mom!",
+      "type": "answer"
+    }
+  ]
+}

@@ -861,6 +861,60 @@ body {
     color: var(--bg-dark);
 }
 
+/* CAH Section Styling */
+.cah-section {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.cah-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.cah-badge {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 0.25rem;
+    color: var(--text-muted);
+}
+
+.cah-warning {
+    color: #ff6b6b;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+}
+
+.cah-attribution {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.packs-section-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--text);
+}
+
+/* CAH pack cards - black theme instead of pink */
+.cah-section .pack-card {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+.cah-section .pack-card:hover {
+    border-color: #fff;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .header {

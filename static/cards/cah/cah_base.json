@@ -1,0 +1,2293 @@
+{
+  "pack_name": "CAH - Base Set",
+  "pack_description": "The original Cards Against Humanity base set",
+  "emoji": "\ud83c\udccf",
+  "order": 50,
+  "spicy_level": 5,
+  "badge": "CAH",
+  "category": "cah",
+  "questions": [
+    {
+      "text": "+  = Hipsters",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "_ is a sure sign of mankind's decline.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "_ would only happen in my worst nightmares.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "_: good to the last drop.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "_: kid tested, mother approved.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "_: kid-tested, mother-approved.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "_: Once you pop, the fun don't stop!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "_? Oh yeah. There's porn about that.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "_? There's an app for that.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "_? Yeah, nah.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "_. Awesome in theory, kind of a mess in practice.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "_. Betcha can't have just one!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "_. High five, bro.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "_. It's a trap!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "_. That was so metal.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "_. That's how I want to die.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "_. The best way to spice up your sex life.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "\u2605\u2730\u2730\u2730\u2730 Do NOT go here! Found _ in my Kung Pao chicken!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "50% of all marriages end in _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "A recent laboratory study shows that undergraduates have 50% less sex after being exposed to _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "A romantic candlelit dinner would be incomplete without _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "A romantic candlelit dinner would be incomplete without _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "A romantic, candlelit dinner would be incomplete without _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "A successful job interview begins with a firm handshake and ends with _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "ABC presents: \": The Story of .\"",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "After eight years in the White House, how is Obama finally letting loose?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "After four platinum albums and three Grammys, it's time to get back to my roots, to what inspired me to make music in the first place: _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "After Hurricane Katrina, Sean Penn brought _ to all the people of New Orleans.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "After Hurricane Katrina, Sean Penn brought _ to the people of New Orleans.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "After months of practice with , I think I'm finally ready for .",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "After the earthquake, Sean Penn brought _ to the people of Haiti.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Air Canada guidelines now prohibit _ on airplanes.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Airport security guidelines now prohibit _ on airplanes.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Alternative medicine is now embracing the curative powers of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "And the Academy Award for  goes to .",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "And the BAFTA for  goes to .",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "And what did you bring for show and tell?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Anthropologists have recently discovered a primitive tribe that worships _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Arby's: We Have _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Are you thinking what I'm thinking, B1?\n\nI think I am, B2: it's _ time!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "As my New Year's resolution, I vow to give up _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "As the mom of five rambunctious boys, I'm no stranger to _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "As the mum of five rambunctious boys, I'm no stranger to _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Betcha can't have just one!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "BILLY MAYS HERE FOR _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Bravo's new reality show features eight washed-up celebrities living with _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Brought to you by Bud Light\u00ae, the Official Beer of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Brought to you by Molson Canadian, the Official Beer of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Brought to you by XXXX Gold, the Official Beer of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "But before I kill you, Mr. Bond, I must show you _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "CBC presents \": the Story of .\"",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "Channel 4 presents , the story of .",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "Channel 5's new reality show features eight washed-up celebrities living with _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Channel 9 is pleased to present its new variety show, \"Hey Hey It's _.\"",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Charlie and the chocolate _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Check me out, yo! I call this dance move \"_.\"",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Click Here for _!!!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Coming this season, Samuel Beckett's classic existential play: Waiting for _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Coming to Broadway this season, _: The Musical.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Coming to theaters this holiday season, \"Star Wars: The Rise of _.\"",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Crikey! I've never seen _ like this before! Let's get a bit closer.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "CTV presents \": the Story of .\"",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "Daddy, why is mommy crying?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Daddy, why is mummy crying?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Dear Abby, I'm having some trouble with _ and would like your advice.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Dear Agony Aunt, I'm having some trouble with _ and I need your advice.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Dear Sir or Madam, We regret to inform you that the Office of  has denied your request for .",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "Doctor, you've gone too far! The human body wasn't meant to withstand that amount of _!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Dude, do not go in that bathroom. There's _ in there.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Dude, do not go in that washroom. There's _ in there.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Due to a PR fiasco, Walmart no longer offers _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "During his childhood, Salvador Dali produced hundreds of paintings of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "During his short-lived boxing career, the Messiah fought under the name Jesus \"_\" Christ.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "During Picasso's often-overlooked Brown Period, he produced hundreds of paintings of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "During sex, I like to think about _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Finally! A service that delivers _ right to your door.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "For my turn, I will spend four gold and allocate all three workers to _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Fun tip! When your man asks you to go down on him, try surprising him with _ instead.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Future historians will agree that _ marked the beginning of America's decline.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Having problems with ? Try !",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "Here is the church\nHere is the steeple\nOpen the doors\nAnd there is _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Hey guys, welcome to Boston Pizza! Would you like to start the night off right with _?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Hey guys, welcome to Chili's! Would you like to start the night off right with _?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Hey guys, welcome to Sizzler! Would you like to start the night off right with _?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Hey guys, welcome to TGIF! Would you like to start the night off right with _?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Hey Reddit! I'm _. Ask me anything.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "How am I maintaining my relationship status?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "How did I lose my virginity?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "I do not know with what weapons World War III will be fought, but World War IV will be fought with _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "I drink to forget _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "I get by with a little help from _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "I got 99 problems, but _ ain't one.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "I know when that hotline bling, that can only mean one thing: _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "I learned the hard way that you can't cheer up a grieving friend with _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "I never truly understood  until I encountered .",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "I spy with my little eye _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "I wish I hadn't lost the instruction manual for _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "I'm going on a cleanse this week. Nothing but kale juice and _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "I'm Lebron James, and when I'm not slamming dunks, I love _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "I'm no doctor, but I'm pretty sure what you're suffering from is called \"_.\"",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "I'm sorry, Professor, but I couldn't complete my homework because of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "I'm sorry, Sir, but I couldn't complete my homework because of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "I'm not like the rest of you. I'm too rich and busy for _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "If you can't be with the one you love, love _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "IF you like _, YOU MIGHT BE A REDNECK.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "In 1,000 years, when paper money is a distant memory, how will we pay for goods and services?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "In 1,000 years, when paper money is but a distant memory, _ will be our currency.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "In a world ravaged by  our only solace is .",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "In a world ravaged by , our only solace is .",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "In an attempt to reach a wider audience, the National Museum of Australia has opened an interactive exhibit on _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "In an attempt to reach a wider audience, the Smithsonian Museum of Natural History has opened an interactive exhibit on _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "In Australia, _ is twice as big and twice as deadly.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "In Belmarsh Prison, word is you can trade 200 cigarettes for _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "In her latest feature-length film, Tracy Beaker struggles with _ for the first time.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "In his new self-produced album, Kanye West raps over the sounds of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "In his new summer comedy, Rob Schneider is  trapped in the body of .",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "In L.A. County Jail, word is you can trade 200 cigarettes for _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "In M. Night Shyamalan's new movie, Bruce Willis discovers that  had really been  all along.",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "In Michael Jackson's final moments, he thought about _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "In Rome, there are whisperings that the Vatican has a secret room devoted to _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "In the new Disney Channel Original Movie, Hannah Montana struggles with _ for the first time.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "In the seventh circle of Hell, sinners must endure _ for all eternity.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "In your Best-Man speech, I'd talk about when we found ourselves _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Instead of coal, Father Christmas now gives the bad children _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Instead of coal, Santa now gives the bad children _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Introducing the amazing superhero/sidekick duo! It's  and !",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "Introducing X-Treme Baseball! It's like baseball, but with _!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "It's a trap!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "It's not  that puts strain on a relationship, it's .",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "Just once, I'd like to hear you say \"Thanks, Mom. Thanks for _.\"",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Just once, I'd like to hear you say \"Thanks, Mum. Thanks for _.\"",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Just saw this upsetting video! Please retweet!! #stop_",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Kids, I don't need drugs to get high. I'm high on _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Life for Aboriginal people was forever changed when the white man introduced them to _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Life for American Indians was forever changed when the White Man introduced them to _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Life was difficult for cavemen before _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Lifetime\u00ae presents : the Story of .",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "Lifetime\u00ae presents \": the Story of .\"",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "Lovin' you is easy 'cause you're _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Major League Baseball has banned _ for giving players an unfair advantage.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Make a haiku.",
+      "type": "prompt",
+      "pick": 3
+    },
+    {
+      "text": "Mate, do not go in that bathroom. There's _ in there.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Mate, do not go in that toilet. There's _ in there.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Maybe she's born with it. Maybe it's _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Men's Wearhouse: You're gonna like _. I guarantee it.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Military historians remember Alexander the Great for his brilliant use of _ against the Persians.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Money can't buy me love, but it can buy me _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Mr. and Mrs. Diaz, we called you in because we're concerned about Cynthia. Are you aware that your daughter is _?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "MTV's new reality show features eight washed-up celebrities living with _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "My fellow Americans: Before this decade is out, we will have _ on the moon!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "My mom is so happy when I visit, but I'm only there to be _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "My plan for world domination begins with _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Next from J.K. Rowling: Harry Potter and the Chamber of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Next from J.K. Rowling: Harry Potter and the chamber of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Next on ESPN2: The World Series of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Next on Eurosport: The World Championship of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Next on Nine's Wide World of Sports: The World Championship of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Next on Sky Sports: The World Champsion of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Next on Sky Sports: The World Champsion of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Next on TSN: The World Series of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Next up on Channel 4: Ramsay's _ Nightmares.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Nobody expects the Spanish Inquisition. Our chief weapons are fear, surprise, and _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Now at the National Museum of Australia: an interactive exhibit on _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Now at the Natural History Museum: an interactive exhibit on _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Now at the Royal Ontario Museum: an interactive exhibit on _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Now at the Smithsonian: an interactive exhibit on _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "O Canada, we stand on guard for _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Oi! Show us _!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Old MacDonald had _. E-I-E-I-O.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Only you can prevent _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Penalty! _: that's 5 minutes in the box!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Qantas now prohibits _ on airplanes.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Rumor has it that Vladimir Putin's favorite dish is  stuffed with .",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "Science will never explain _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Skidamarink a dink a dink, skidamarink a doo, I love _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Sorry everyone, I just _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Step 1: .\nStep 2: .\nStep 3: Profit.",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "Studies show that lab rats navigate mazes 50% faster after being exposed to _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Thank God for alcohol and _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "That's right, I killed . How, you ask? .",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "The blind date was going horribly until we discovered our shared interest in _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "The class field trip was completely ruined by _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "The Four Horsemen of the Apocalypse: Pestilence, War, Famine, and _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "The hills are alive with the sound of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "The neighborhood kid didn't use snow for their snowman, they used _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "The new Chevy Tahoe. With the power and space to take _ everywhere you go.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "The school excursion was completely ruined by _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "The school field trip was completely ruined by _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "The school trip was completely ruined by _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "The secret to a lasting marriage is communication, communication, and _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "The Smithsonian Museum of Natural History has just opened an interactive exhibit on _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "The TFL apologizes for the delay in train service due to _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "The theme for next year's Eurovision Song Contest is \"We are _.\"",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "The U.S. has begun airdropping _ to the children of Afghanistan.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "They said we were crazy. They said we couldn't put  inside of . They were wrong.",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "This is the way the world ends\nThis is the way the world ends\nNot with a bang but with _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "This is your pilot speaking. Please prepare for _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "This season at Steppenwolf, Samuel Beckett's classic existential play: Waitng for _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "This season at the old Vic, Samuel Beckett's classic existential play: Waitng for _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "This season at the Princess of Wales Theatre, Samuel Beckett's classic existential play: Waiting for _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "This season at the Sydney Opera House, Samuel Beckett's classic existential play: Waiting for _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Today on Jerry Springer: \"Help! My son is _!\"",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Today on Maury: \"Help! My son is _!\"",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Today on The Jeremy Kyle Show: \"Help! My son is _!\"",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Tonight's top story: What you don't know about _ could kill you.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "TSA guidelines now prohibit _ on airplanes.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Turns out that _-Man was neither the hero we needed nor wanted.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Uh, hey guys, I know this was my idea, but I'm having serious doubts about _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "UKIP: Putting _ First!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "War! What is it good for?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Well if you'll excuse me, gentlemen, I have a date with _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What am I giving up for Lent?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What are my parents hiding from me?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What are school administrators using to curb rampant teenage pregnancy?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What broke up the original Wiggles?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What brought the orgy to a grinding halt?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What did I bring back from Amsterdam?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What did I bring back from Bali?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What did I bring back from Mexico?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What did the US airdrop to the children of Afghanistan?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What did Vin Diesel eat for dinner?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What do old people smell like?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What does Dick Cheney prefer?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What don't you want to find in your Chinese food?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What don't you want to find in your doner kebab?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What don't you want to find in your Kung Pao chicken?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What don't you want to find in your Mongolian beef?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What ended my last relationship?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What gets better with age?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What gives me uncontrollable gas?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What has been making life difficult at the nudist colony?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What helps Barack Obama unwind?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What helps Obama unwind?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What is Batman's guilty pleasure?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What is George W. Bush thinking about right now?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What kept Margaret Thatcher busy in her waning years?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What left this stain on my couch?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What made my first kiss so awkward?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What makes life worth living?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What makes me a true blue Aussie?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What never fails to liven up the party?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What will always get you laid?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What will I bring back in time to convince people that I am a powerful wizard?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What would grandma find disturbing, yet oddly charming?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What's a girl's best friend?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What's my anti-drug?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What's my secret power?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What's Teach for America using to inspire inner city students to succeed?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What's that smell?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What's that sound?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What's the Canadian government using to inspire rural students to succeed?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What's the crustiest?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What's the most emo?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What's the new fad diet?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What's the next Happy Meal\u00ae toy?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What's the next superhero/sidekick duo?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What's there a ton of in heaven?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What's there a tonne of in heaven?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "When all else fails, I can always masturbate to _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "When I am a billionare, I shall erect a 20-meter statue to commemorate _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "When I am a billionare, I shall erect a 20-metre statue to commemorate _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "When I am a billionare, I shall erect a 50-foot statue to commemorate _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "When I am President of the United States, I will create the Department of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "When I am President, I will create the Department of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "When I am Prime Minister of Canada, I will create the Department of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "When I am Prime Minister of Canada, I will create the Ministry of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "When I am Prime Minister, I will create the Department of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "When I am Prime Minister, I will create the Department of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "When I am Prime Minister, I will create the Ministry of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "When I pooped, what came out of my butt?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "When I was tripping on acid,  turned into .",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "When I'm pooping, I like to think about _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "When Pharaoh remained unmoved, Moses called down a Plague of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "When you get right down to it,  is just .",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "While the United States raced the Soviet Union to the moon, the Mexican government funneled millions of pesos into research on _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "White people like _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Who stole the cookies from the cookie jar?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Why am I sticky?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Why can't I sleep at night?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Why do I hurt all over?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "With enough time and pressure,  will turn into .",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "Your security clearance has been suspended beause of your shameful past involving _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "\"Tweeting.\"",
+      "type": "answer"
+    },
+    {
+      "text": "(I am doing Kegels right now.)",
+      "type": "answer"
+    },
+    {
+      "text": "10,000 Syrian refugees.",
+      "type": "answer"
+    },
+    {
+      "text": "100% Pure New Zealand.",
+      "type": "answer"
+    },
+    {
+      "text": "2 Girls 1 Cup.",
+      "type": "answer"
+    },
+    {
+      "text": "400 years of colonial atrocities.",
+      "type": "answer"
+    },
+    {
+      "text": "50 mg of Zoloft daily.",
+      "type": "answer"
+    },
+    {
+      "text": "50,000 volts straight to the nipples.",
+      "type": "answer"
+    },
+    {
+      "text": "72 virgins.",
+      "type": "answer"
+    },
+    {
+      "text": "8 oz. of sweet Mexican black-tar heroin.",
+      "type": "answer"
+    },
+    {
+      "text": "A bag of magic beans.",
+      "type": "answer"
+    },
+    {
+      "text": "A balanced breakfast.",
+      "type": "answer"
+    },
+    {
+      "text": "A ball of earwax, semen, and toenail clippings.",
+      "type": "answer"
+    },
+    {
+      "text": "A big black dick.",
+      "type": "answer"
+    },
+    {
+      "text": "A big hoopla about nothing.",
+      "type": "answer"
+    },
+    {
+      "text": "A bird that shits human turds.",
+      "type": "answer"
+    },
+    {
+      "text": "A bit of slap and tickle.",
+      "type": "answer"
+    },
+    {
+      "text": "A bitch slap.",
+      "type": "answer"
+    },
+    {
+      "text": "A bleached arsehole.",
+      "type": "answer"
+    },
+    {
+      "text": "A bleached asshole.",
+      "type": "answer"
+    },
+    {
+      "text": "A Bop It\u2122.",
+      "type": "answer"
+    },
+    {
+      "text": "A bowl of mayonnaise and human teeth.",
+      "type": "answer"
+    },
+    {
+      "text": "A brain tumor.",
+      "type": "answer"
+    },
+    {
+      "text": "A brain tumour.",
+      "type": "answer"
+    },
+    {
+      "text": "A bucket of fish heads.",
+      "type": "answer"
+    },
+    {
+      "text": "A can of whoop-ass.",
+      "type": "answer"
+    },
+    {
+      "text": "A caress of the inner thigh.",
+      "type": "answer"
+    },
+    {
+      "text": "A cartoon camel enjoying the smooth, refreshing taste of a cigarette.",
+      "type": "answer"
+    },
+    {
+      "text": "A cat with... hands.",
+      "type": "answer"
+    },
+    {
+      "text": "A cherry-wood spanking bench.",
+      "type": "answer"
+    },
+    {
+      "text": "A Chinese tourist who wants something very badly but cannot communicate it.",
+      "type": "answer"
+    },
+    {
+      "text": "A clandestine butt scratch.",
+      "type": "answer"
+    },
+    {
+      "text": "A cooler full of organs.",
+      "type": "answer"
+    },
+    {
+      "text": "A copy of Bedside Hitler.",
+      "type": "answer"
+    },
+    {
+      "text": "A crucifixion.",
+      "type": "answer"
+    },
+    {
+      "text": "A cute, fuzzy koala, but it has chlamydia.",
+      "type": "answer"
+    },
+    {
+      "text": "A death ray.",
+      "type": "answer"
+    },
+    {
+      "text": "A decent fucking Internet connection.",
+      "type": "answer"
+    },
+    {
+      "text": "A defective condom.",
+      "type": "answer"
+    },
+    {
+      "text": "A despondent Maple Leafs fan sitting all alone.",
+      "type": "answer"
+    },
+    {
+      "text": "A didgeridildo.",
+      "type": "answer"
+    },
+    {
+      "text": "A disappointing birthday party.",
+      "type": "answer"
+    },
+    {
+      "text": "A drive-by shooting.",
+      "type": "answer"
+    },
+    {
+      "text": "A fair go.",
+      "type": "answer"
+    },
+    {
+      "text": "A falcon with a cap on its head.",
+      "type": "answer"
+    },
+    {
+      "text": "A fanny fart.",
+      "type": "answer"
+    },
+    {
+      "text": "A fart so powerful that it wakes the giants from their thousand-year slumber.",
+      "type": "answer"
+    },
+    {
+      "text": "A fat bald man from the internet.",
+      "type": "answer"
+    },
+    {
+      "text": "A fetus.",
+      "type": "answer"
+    },
+    {
+      "text": "A five-litre goon bag.",
+      "type": "answer"
+    },
+    {
+      "text": "A Fleshlight.",
+      "type": "answer"
+    },
+    {
+      "text": "A Fleshlight\u00ae.",
+      "type": "answer"
+    },
+    {
+      "text": "A foetus.",
+      "type": "answer"
+    },
+    {
+      "text": "A foul mouth.",
+      "type": "answer"
+    },
+    {
+      "text": "A fuck-ton of almonds.",
+      "type": "answer"
+    },
+    {
+      "text": "A fuck-tonne of almonds.",
+      "type": "answer"
+    },
+    {
+      "text": "A gassy antelope.",
+      "type": "answer"
+    },
+    {
+      "text": "A gentle caress of the inner thigh.",
+      "type": "answer"
+    },
+    {
+      "text": "A ginger's freckled ballsack.",
+      "type": "answer"
+    },
+    {
+      "text": "A good sniff.",
+      "type": "answer"
+    },
+    {
+      "text": "A good, strong gorilla.",
+      "type": "answer"
+    },
+    {
+      "text": "A gossamer stream of jizz that catches the light as it arcs through the morning air.",
+      "type": "answer"
+    },
+    {
+      "text": "A grande sugar-free iced soy caramel macchiato.",
+      "type": "answer"
+    },
+    {
+      "text": "A Gypsy curse.",
+      "type": "answer"
+    },
+    {
+      "text": "A hairless little shitstain named Callou.",
+      "type": "answer"
+    },
+    {
+      "text": "A Halal Snack Pack.",
+      "type": "answer"
+    },
+    {
+      "text": "A hen night in Slough.",
+      "type": "answer"
+    },
+    {
+      "text": "A homoerotic volleyball montage.",
+      "type": "answer"
+    },
+    {
+      "text": "A horde of Vikings.",
+      "type": "answer"
+    },
+    {
+      "text": "A hot mess.",
+      "type": "answer"
+    },
+    {
+      "text": "A Japanese tourist who wants something very badly but cannot communicate it.",
+      "type": "answer"
+    },
+    {
+      "text": "A Japanese whaling operation.",
+      "type": "answer"
+    },
+    {
+      "text": "A LAN party.",
+      "type": "answer"
+    },
+    {
+      "text": "A lifetime of sadness.",
+      "type": "answer"
+    },
+    {
+      "text": "A literal tornado of fire.",
+      "type": "answer"
+    },
+    {
+      "text": "A little boy who won't shut the fuck up about dinosaurs.",
+      "type": "answer"
+    },
+    {
+      "text": "A live studio audience.",
+      "type": "answer"
+    },
+    {
+      "text": "A look-see.",
+      "type": "answer"
+    },
+    {
+      "text": "A low standard of living.",
+      "type": "answer"
+    },
+    {
+      "text": "A mad cow.",
+      "type": "answer"
+    },
+    {
+      "text": "A madman who lives in a police box and kidnaps women.",
+      "type": "answer"
+    },
+    {
+      "text": "A man of means by no means.",
+      "type": "answer"
+    },
+    {
+      "text": "A man on the brink of orgasm.",
+      "type": "answer"
+    },
+    {
+      "text": "A mating display.",
+      "type": "answer"
+    },
+    {
+      "text": "A Mexican.",
+      "type": "answer"
+    },
+    {
+      "text": "A micropenis.",
+      "type": "answer"
+    },
+    {
+      "text": "A micropig wearing a tiny raincoat and booties.",
+      "type": "answer"
+    },
+    {
+      "text": "A middle-aged man on roller skates.",
+      "type": "answer"
+    },
+    {
+      "text": "A mime having a stroke.",
+      "type": "answer"
+    },
+    {
+      "text": "A moment of silence.",
+      "type": "answer"
+    },
+    {
+      "text": "A monkey smoking a cigar.",
+      "type": "answer"
+    },
+    {
+      "text": "A mopey zoo lion.",
+      "type": "answer"
+    },
+    {
+      "text": "A much younger woman.",
+      "type": "answer"
+    },
+    {
+      "text": "A murder most foul.",
+      "type": "answer"
+    },
+    {
+      "text": "A neglected Tamagotchi\u2122.",
+      "type": "answer"
+    },
+    {
+      "text": "A nice cup of tea.",
+      "type": "answer"
+    },
+    {
+      "text": "A pangender octopus who roams the cosmos in search of love.",
+      "type": "answer"
+    },
+    {
+      "text": "A pineapple with chlamydia.",
+      "type": "answer"
+    },
+    {
+      "text": "A posh wank.",
+      "type": "answer"
+    },
+    {
+      "text": "A prayer bouquet.",
+      "type": "answer"
+    },
+    {
+      "text": "A pyramid of severed heads.",
+      "type": "answer"
+    },
+    {
+      "text": "A really cool hat.",
+      "type": "answer"
+    },
+    {
+      "text": "A robust mongoloid.",
+      "type": "answer"
+    },
+    {
+      "text": "A sad god with a shit-covered pair of nipples.",
+      "type": "answer"
+    },
+    {
+      "text": "A sad handjob.",
+      "type": "answer"
+    },
+    {
+      "text": "A salad for men that's made of metal.",
+      "type": "answer"
+    },
+    {
+      "text": "A salty surprise.",
+      "type": "answer"
+    },
+    {
+      "text": "A sassy black woman.",
+      "type": "answer"
+    },
+    {
+      "text": "A sausage festival.",
+      "type": "answer"
+    },
+    {
+      "text": "A saxophone solo.",
+      "type": "answer"
+    },
+    {
+      "text": "A sea of troubles.",
+      "type": "answer"
+    },
+    {
+      "text": "A shark!",
+      "type": "answer"
+    },
+    {
+      "text": "A sick burnout.",
+      "type": "answer"
+    },
+    {
+      "text": "A sick wombat.",
+      "type": "answer"
+    },
+    {
+      "text": "A sickly child-king.",
+      "type": "answer"
+    },
+    {
+      "text": "A six-point plan to stop the boats.",
+      "type": "answer"
+    },
+    {
+      "text": "A slab of VB and a pack of durries.",
+      "type": "answer"
+    },
+    {
+      "text": "a slightly used tampon",
+      "type": "answer"
+    },
+    {
+      "text": "A snapping turtle biting the tip of your penis.",
+      "type": "answer"
+    },
+    {
+      "text": "A sober Irishman who doesn't care for potatoes.",
+      "type": "answer"
+    },
+    {
+      "text": "A soggy Sao.",
+      "type": "answer"
+    },
+    {
+      "text": "A spastic nerd.",
+      "type": "answer"
+    },
+    {
+      "text": "A stingray barb through the chest.",
+      "type": "answer"
+    },
+    {
+      "text": "A stray pube.",
+      "type": "answer"
+    },
+    {
+      "text": "A subscription to Men's Fitness.",
+      "type": "answer"
+    },
+    {
+      "text": "A Super Soaker\u2122 full of cat pee.",
+      "type": "answer"
+    },
+    {
+      "text": "A surprisingly low amount of prison rape.",
+      "type": "answer"
+    },
+    {
+      "text": "A swift hoog to the face.",
+      "type": "answer"
+    },
+    {
+      "text": "A thermonuclear detonation.",
+      "type": "answer"
+    },
+    {
+      "text": "A thousand Scottish warriors lifting their kilts in unison.",
+      "type": "answer"
+    },
+    {
+      "text": "A three-way with my wife and Shaquille O'Neal.",
+      "type": "answer"
+    },
+    {
+      "text": "A Tim Hortons franchise.",
+      "type": "answer"
+    },
+    {
+      "text": "A time travel paradox.",
+      "type": "answer"
+    },
+    {
+      "text": "A tiny horse.",
+      "type": "answer"
+    },
+    {
+      "text": "A tiny, gay guitar called a ukulele.",
+      "type": "answer"
+    },
+    {
+      "text": "A tribe of warrior women.",
+      "type": "answer"
+    },
+    {
+      "text": "A vagina that tastes like the bathroom floors at Tom's Diner.",
+      "type": "answer"
+    },
+    {
+      "text": "A vajazzled vagina.",
+      "type": "answer"
+    },
+    {
+      "text": "A vastly superior healthcare system.",
+      "type": "answer"
+    },
+    {
+      "text": "A vindaloo poo.",
+      "type": "answer"
+    },
+    {
+      "text": "A web of lies.",
+      "type": "answer"
+    },
+    {
+      "text": "A wheelchair death race.",
+      "type": "answer"
+    },
+    {
+      "text": "A white ethnostate.",
+      "type": "answer"
+    },
+    {
+      "text": "A white van man.",
+      "type": "answer"
+    },
+    {
+      "text": "A whole thing of butter.",
+      "type": "answer"
+    },
+    {
+      "text": "A windmill full of corpses.",
+      "type": "answer"
+    },
+    {
+      "text": "A wisecracking terrorist.",
+      "type": "answer"
+    },
+    {
+      "text": "A zesty breakfast burrito.",
+      "type": "answer"
+    },
+    {
+      "text": "Aaron Burr.",
+      "type": "answer"
+    },
+    {
+      "text": "Abstinence.",
+      "type": "answer"
+    },
+    {
+      "text": "Academy Award winner Meryl Streep.",
+      "type": "answer"
+    },
+    {
+      "text": "Accepting the way things are.",
+      "type": "answer"
+    },
+    {
+      "text": "Accidentally slipping yourself a roofie.",
+      "type": "answer"
+    },
+    {
+      "text": "Active listening.",
+      "type": "answer"
+    },
+    {
+      "text": "Actually giving a shit",
+      "type": "answer"
+    },
+    {
+      "text": "Actually taking candy from a baby.",
+      "type": "answer"
+    },
+    {
+      "text": "Adderall\u2122.",
+      "type": "answer"
+    },
+    {
+      "text": "Adult Friendfinder.",
+      "type": "answer"
+    },
+    {
+      "text": "Advice from a wise, old black man.",
+      "type": "answer"
+    },
+    {
+      "text": "African children.",
+      "type": "answer"
+    },
+    {
+      "text": "Agriculture.",
+      "type": "answer"
+    },
+    {
+      "text": "AIDS.",
+      "type": "answer"
+    },
+    {
+      "text": "Alcohol poisoning.",
+      "type": "answer"
+    },
+    {
+      "text": "Alcoholism.",
+      "type": "answer"
+    },
+    {
+      "text": "Alexandria Ocasio-Cortez.",
+      "type": "answer"
+    },
+    {
+      "text": "All four prongs of an echidna's penis.",
+      "type": "answer"
+    },
+    {
+      "text": "All my gentleman suitors.",
+      "type": "answer"
+    },
+    {
+      "text": "all pants are half off today",
+      "type": "answer"
+    },
+    {
+      "text": "All the dudes I've fucked.",
+      "type": "answer"
+    },
+    {
+      "text": "All-you-can-eat shrimp for $4.99.",
+      "type": "answer"
+    },
+    {
+      "text": "All-you-can-eat shrimp for $8.99.",
+      "type": "answer"
+    },
+    {
+      "text": "Altar boys.",
+      "type": "answer"
+    },
+    {
+      "text": "America.",
+      "type": "answer"
+    },
+    {
+      "text": "American Gladiators.",
+      "type": "answer"
+    },
+    {
+      "text": "Americanization.",
+      "type": "answer"
+    },
+    {
+      "text": "Amputees.",
+      "type": "answer"
+    },
+    {
+      "text": "An AK-47 assault rifle.",
+      "type": "answer"
+    },
+    {
+      "text": "An AK-47.",
+      "type": "answer"
+    },
+    {
+      "text": "An AR-15 assault rifle.",
+      "type": "answer"
+    },
+    {
+      "text": "An argument with Richard Dawkins.",
+      "type": "answer"
+    },
+    {
+      "text": "An Army of smack heads with HIV infected needles.",
+      "type": "answer"
+    },
+    {
+      "text": "An ass like two football helmets.",
+      "type": "answer"
+    },
+    {
+      "text": "An asymmetric boob job.",
+      "type": "answer"
+    },
+    {
+      "text": "An endless stream of diarrhea.",
+      "type": "answer"
+    },
+    {
+      "text": "An endless stream of diarrhoea.",
+      "type": "answer"
+    },
+    {
+      "text": "An entrenched class system.",
+      "type": "answer"
+    },
+    {
+      "text": "An erection that lasts longer than four hours.",
+      "type": "answer"
+    },
+    {
+      "text": "An Evening with Michael Buble.",
+      "type": "answer"
+    },
+    {
+      "text": "An evil man in evil clothes.",
+      "type": "answer"
+    },
+    {
+      "text": "An honest cop with nothing left to lose.",
+      "type": "answer"
+    },
+    {
+      "text": "An icepick lobotomy.",
+      "type": "answer"
+    },
+    {
+      "text": "An icy handjob from an Edmonton hooker.",
+      "type": "answer"
+    },
+    {
+      "text": "An M. Night Shyamalan plot twist.",
+      "type": "answer"
+    },
+    {
+      "text": "An M16 assault rifle.",
+      "type": "answer"
+    },
+    {
+      "text": "An octopus giving seven handjobs and smoking a cigarette.",
+      "type": "answer"
+    },
+    {
+      "text": "An Oedipus complex.",
+      "type": "answer"
+    },
+    {
+      "text": "An old guy who's almost dead.",
+      "type": "answer"
+    },
+    {
+      "text": "An older woman who knows her way around the penis.",
+      "type": "answer"
+    },
+    {
+      "text": "An oversized lollipop.",
+      "type": "answer"
+    },
+    {
+      "text": "An ugly face.",
+      "type": "answer"
+    },
+    {
+      "text": "An unsurprising rash.",
+      "type": "answer"
+    },
+    {
+      "text": "An unwanted pregnancy.",
+      "type": "answer"
+    },
+    {
+      "text": "An uppercut.",
+      "type": "answer"
+    },
+    {
+      "text": "Anal beads.",
+      "type": "answer"
+    },
+    {
+      "text": "Announcing that I am about to cum.",
+      "type": "answer"
+    },
+    {
+      "text": "Another goddamn vampire movie.",
+      "type": "answer"
+    },
+    {
+      "text": "Another surprising Osprey crash.",
+      "type": "answer"
+    },
+    {
+      "text": "Anything that comes out of Prince Philip's mouth.",
+      "type": "answer"
+    },
+    {
+      "text": "Apologizing.",
+      "type": "answer"
+    },
+    {
+      "text": "Arnold Vosloo.",
+      "type": "answer"
+    },
+    {
+      "text": "Asians who aren't good at math.",
+      "type": "answer"
+    },
+    {
+      "text": "Assless chaps.",
+      "type": "answer"
+    },
+    {
+      "text": "Attitude.",
+      "type": "answer"
+    },
+    {
+      "text": "Auschwitz.",
+      "type": "answer"
+    },
+    {
+      "text": "Australia.",
+      "type": "answer"
+    },
+    {
+      "text": "Authentic Mexican cuisine.",
+      "type": "answer"
+    },
+    {
+      "text": "Autocannibalism.",
+      "type": "answer"
+    },
+    {
+      "text": "AXE Body Spray.",
+      "type": "answer"
+    }
+  ]
+}

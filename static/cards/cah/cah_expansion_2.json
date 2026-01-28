@@ -1,0 +1,2137 @@
+{
+  "pack_name": "CAH - Box Expansions",
+  "pack_description": "Blue, Red, Green, and Absurd Box expansions",
+  "emoji": "\ud83d\udce6",
+  "order": 52,
+  "spicy_level": 5,
+  "badge": "CAH",
+  "category": "cah",
+  "questions": [
+    {
+      "text": "Ain't it nifty? Barb and Bob hit 50! So get off your ass and raise a glass to 50 years of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Duuuuuuude. You have got to go to space. _ is awesome in space.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Five,\nfour,\nthree,\ntwo,\none....\n_!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "For hunting in the King's forest, I hereby sentence you to death by _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Give me ten good men and 48 hours. I'll get you _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Goldfinger!\nHe's the man,\nthe man with _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Goodbye, , hello !",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "Here's a little something I learned in business school: The customer is always _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Hey, honey.\nFor the bedroom, were you thinking, \"Robin's Egg Blue\" or _Pink?\"",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "I hate this job.\nI hate this place.\nMost of all, I hate _.\nI quit.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "I have solved politics.\nMy solution is _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "I so drunk I _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "I swear to God I'm gonna murder my husband if he doesn't shut the fuck up about _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "In bookstores now: \"From  to : A memoir.\"",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "In Radiohead's new single, Thom Yorke repeats the phrase \"_\" dozens of times over a skittering drum beat.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "It's finally happening! I'm finally doing it! Yes! It's time for _!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "It's late at night. You're in bed with your lover, Patrick Stewart. He leans over with a twinkle in his eye and asks \"How about _?\"",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "It's the 21st century.\nA woman shouldn't have to apologize for _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Ladies and gentlemen, I propose a two-pronged plan. The first prong will be , and the second prong will be .",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "Live from Universal Studios, it's America's favorite game show! \" or ?\"",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "Millions of copies sold! Donald Trump's \"The Art of _.\"",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "New at TGI Fridays! It's what you've been waiting for: The _ Burger.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Oh no!\nHere it comes!\nOhhhhh god!\nIt's _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Oh you haaaaaaave to see this new documentary on Netflix. I don't want to give anything away, but let's just say it will change the way you look at _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Oh, the weather outside is frightful. But _ is so delightful.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "One, two, three and to the four, Snoop Doggy Dogg and Dr. Dre is _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Personal foul: _. 15-yard penalty. Automatic first down.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Rub a dub dub, _ in a tub!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Say it loud! I'm _ and I'm proud!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Seriously guys, there's nothing funny about _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Sweetheart, you and your sister escel in different ways. She's got her violin, and you've got _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "That's bullshit! They can't fire me for _!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "The sequel is here! Get Ready for 2: .",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "Times have changed, girlfriend. If you want to meet people in New York, you got to be down for _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Unfortunately, no one can be told what _ is. You have to experience it for yourself.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What has my life become? I'm jerking off to a video called \"co-ed absolutely destroyed by _.\"",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What sounds great after four margaritas?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What's hot, smelly, and about to die?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What's secretly a Russian plot to destabilize the West?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What's up, YouTube?\nUser DanTheMan wanted to see _, so here we go.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Why did the chicken cross the road?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Why my mustache smell so bad?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Yeah that's so hot.\nI'm so close.\nTalk about _ again!\nOH I'M CUMMING!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "You can call me David Copperfield, because I'm about to make _ disappear.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "You city folk would never understand the quiet dignity of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "...it is unclear.",
+      "type": "answer"
+    },
+    {
+      "text": "A 12-foot scepter of bone.",
+      "type": "answer"
+    },
+    {
+      "text": "A basketball that screams every time it gets bounced.",
+      "type": "answer"
+    },
+    {
+      "text": "A bear.",
+      "type": "answer"
+    },
+    {
+      "text": "A big hole.",
+      "type": "answer"
+    },
+    {
+      "text": "A big hot fire that's burning everybody.",
+      "type": "answer"
+    },
+    {
+      "text": "A big, big, big, and I mean BIG big.",
+      "type": "answer"
+    },
+    {
+      "text": "A big, sloppy blowjob from a mean, tired cowboy.",
+      "type": "answer"
+    },
+    {
+      "text": "A bird that dies.",
+      "type": "answer"
+    },
+    {
+      "text": "A bold red lip.",
+      "type": "answer"
+    },
+    {
+      "text": "A button that when you press it, there's jazz.",
+      "type": "answer"
+    },
+    {
+      "text": "A cat with... hands.",
+      "type": "answer"
+    },
+    {
+      "text": "A Christmas feast of goose and jellies.",
+      "type": "answer"
+    },
+    {
+      "text": "A concerning amount of white people.",
+      "type": "answer"
+    },
+    {
+      "text": "A couple of cold ones.",
+      "type": "answer"
+    },
+    {
+      "text": "A crab rangoon.",
+      "type": "answer"
+    },
+    {
+      "text": "A family of raccoons.",
+      "type": "answer"
+    },
+    {
+      "text": "A four-hour depression nap.",
+      "type": "answer"
+    },
+    {
+      "text": "A full-on panic attack.",
+      "type": "answer"
+    },
+    {
+      "text": "A garbage clown who makes no one laugh and should die.",
+      "type": "answer"
+    },
+    {
+      "text": "A hamburger on a string that keeps getting pulled away.",
+      "type": "answer"
+    },
+    {
+      "text": "A hateful 30-year marriage.",
+      "type": "answer"
+    },
+    {
+      "text": "A little boy with big dreams and potatoes for hands.",
+      "type": "answer"
+    },
+    {
+      "text": "A little girl with a knife.",
+      "type": "answer"
+    },
+    {
+      "text": "A little sewer girl strangling a pigeon.",
+      "type": "answer"
+    },
+    {
+      "text": "A little taste of penis.",
+      "type": "answer"
+    },
+    {
+      "text": "A magician fucking up over and over again.",
+      "type": "answer"
+    },
+    {
+      "text": "A penis that gets too hard and explodes blood.",
+      "type": "answer"
+    },
+    {
+      "text": "A piping-hot casserole filled with beans and hair.",
+      "type": "answer"
+    },
+    {
+      "text": "A poop emergency.",
+      "type": "answer"
+    },
+    {
+      "text": "A powerful philosopher named Brainhead.",
+      "type": "answer"
+    },
+    {
+      "text": "A Pringle.",
+      "type": "answer"
+    },
+    {
+      "text": "A Puerto Rican minotaur from the Bronx.",
+      "type": "answer"
+    },
+    {
+      "text": "A racist boomerang that only comes back if you're white.",
+      "type": "answer"
+    },
+    {
+      "text": "A real cum-dumpster of a saxophonist.",
+      "type": "answer"
+    },
+    {
+      "text": "A real job with insurance and your taxes taken out and everything.",
+      "type": "answer"
+    },
+    {
+      "text": "A sticky tree hole full of pancake sauce.",
+      "type": "answer"
+    },
+    {
+      "text": "A stinky hoo-ha.",
+      "type": "answer"
+    },
+    {
+      "text": "A toothless woman gumming on a peach.",
+      "type": "answer"
+    },
+    {
+      "text": "A urinary tract infection.",
+      "type": "answer"
+    },
+    {
+      "text": "A vagina that beatboxes when it's horny.",
+      "type": "answer"
+    },
+    {
+      "text": "A whole different way of talking called Spanish.",
+      "type": "answer"
+    },
+    {
+      "text": "Accusing a powerful man of sexual assault.",
+      "type": "answer"
+    },
+    {
+      "text": "Acquiring a gun very easily.",
+      "type": "answer"
+    },
+    {
+      "text": "Acting white.",
+      "type": "answer"
+    },
+    {
+      "text": "All manners of honors.",
+      "type": "answer"
+    },
+    {
+      "text": "All my dead sisters.",
+      "type": "answer"
+    },
+    {
+      "text": "All types of girls, even ugly ones.",
+      "type": "answer"
+    },
+    {
+      "text": "An 800-foot-long pool noodle.",
+      "type": "answer"
+    },
+    {
+      "text": "An ambitious woman who wears pants.",
+      "type": "answer"
+    },
+    {
+      "text": "An elite squad known as the Special Victims Unit.",
+      "type": "answer"
+    },
+    {
+      "text": "Anything Asian.",
+      "type": "answer"
+    },
+    {
+      "text": "As ass like a bag of pool balls.",
+      "type": "answer"
+    },
+    {
+      "text": "Assembling IKEA furniture.",
+      "type": "answer"
+    },
+    {
+      "text": "Beef.",
+      "type": "answer"
+    },
+    {
+      "text": "Being hunted by giant eagles.",
+      "type": "answer"
+    },
+    {
+      "text": "Being inside me.",
+      "type": "answer"
+    },
+    {
+      "text": "Being seen reading Infinite Jest.",
+      "type": "answer"
+    },
+    {
+      "text": "Being shitty to everyone and late for everything.",
+      "type": "answer"
+    },
+    {
+      "text": "Big beefy baseball boys.",
+      "type": "answer"
+    },
+    {
+      "text": "Big Italian women making the spicy sauce.",
+      "type": "answer"
+    },
+    {
+      "text": "Bimpy, the small styrofoam ball we all jack off into.",
+      "type": "answer"
+    },
+    {
+      "text": "Bipolar Disorder.",
+      "type": "answer"
+    },
+    {
+      "text": "Blowing into the penis so that the balls inflate.",
+      "type": "answer"
+    },
+    {
+      "text": "Blue smoke coming out of my anus.",
+      "type": "answer"
+    },
+    {
+      "text": "Canada's worst mangoes.",
+      "type": "answer"
+    },
+    {
+      "text": "Carbs.",
+      "type": "answer"
+    },
+    {
+      "text": "Carlos Santana's horrible wailing guitar.",
+      "type": "answer"
+    },
+    {
+      "text": "Certain things, but not others.",
+      "type": "answer"
+    },
+    {
+      "text": "Chinese people.",
+      "type": "answer"
+    },
+    {
+      "text": "Chowder.",
+      "type": "answer"
+    },
+    {
+      "text": "Clearly asking for no cucumbers in my salad, and yet here we are.",
+      "type": "answer"
+    },
+    {
+      "text": "Clippy from Microsoft Office.",
+      "type": "answer"
+    },
+    {
+      "text": "Colluding with Russia.",
+      "type": "answer"
+    },
+    {
+      "text": "Corn.",
+      "type": "answer"
+    },
+    {
+      "text": "Country music legend Toby Keith.",
+      "type": "answer"
+    },
+    {
+      "text": "Crunchy snacks for big, flappy mouth.",
+      "type": "answer"
+    },
+    {
+      "text": "Cultural appropriation.",
+      "type": "answer"
+    },
+    {
+      "text": "Curly fries so good you quit ISIS.",
+      "type": "answer"
+    },
+    {
+      "text": "Dating a Republican.",
+      "type": "answer"
+    },
+    {
+      "text": "Death.",
+      "type": "answer"
+    },
+    {
+      "text": "Deja vu.",
+      "type": "answer"
+    },
+    {
+      "text": "delayed gratification",
+      "type": "answer"
+    },
+    {
+      "text": "Denying climate change.",
+      "type": "answer"
+    },
+    {
+      "text": "Doing ho shit.",
+      "type": "answer"
+    },
+    {
+      "text": "Doing it doggy, no kissing.",
+      "type": "answer"
+    },
+    {
+      "text": "Doing stuff bad.",
+      "type": "answer"
+    },
+    {
+      "text": "Drake.",
+      "type": "answer"
+    },
+    {
+      "text": "Driving to a Walmart parking lot and staring into the distance for eight hours.",
+      "type": "answer"
+    },
+    {
+      "text": "Eating pussy bad.",
+      "type": "answer"
+    },
+    {
+      "text": "Ejaculating a quart of hollandaise sauce.",
+      "type": "answer"
+    },
+    {
+      "text": "Elon Musk.",
+      "type": "answer"
+    },
+    {
+      "text": "Enticing a hummingbird to drink nectar out of my urethra.",
+      "type": "answer"
+    },
+    {
+      "text": "Fascism.",
+      "type": "answer"
+    },
+    {
+      "text": "Fat.",
+      "type": "answer"
+    },
+    {
+      "text": "Fingering each other's buttholes.",
+      "type": "answer"
+    },
+    {
+      "text": "Foul vegan shits.",
+      "type": "answer"
+    },
+    {
+      "text": "Free two-day shipping with Amazon Prime.",
+      "type": "answer"
+    },
+    {
+      "text": "Fresh Air with Terry Gross.",
+      "type": "answer"
+    },
+    {
+      "text": "Funneling money through a series of shell companies.",
+      "type": "answer"
+    },
+    {
+      "text": "Getting #MeToo'd.",
+      "type": "answer"
+    },
+    {
+      "text": "Getting banished to the Shadow Realm.",
+      "type": "answer"
+    },
+    {
+      "text": "Getting depressed and super fat.",
+      "type": "answer"
+    },
+    {
+      "text": "Getting fisted by a man with no fingers.",
+      "type": "answer"
+    },
+    {
+      "text": "Getting half-hard and trying to smoosh it in.",
+      "type": "answer"
+    },
+    {
+      "text": "Getting herpes from Bruce Willis.",
+      "type": "answer"
+    },
+    {
+      "text": "Getting Mommy another beer.",
+      "type": "answer"
+    },
+    {
+      "text": "Getting tanned, jacked, and juicy.",
+      "type": "answer"
+    },
+    {
+      "text": "Going \"oink oink\" like a nasty little pig boy.",
+      "type": "answer"
+    },
+    {
+      "text": "Good, clean Christian comedy.",
+      "type": "answer"
+    },
+    {
+      "text": "Hard-hitting investigative journalism.",
+      "type": "answer"
+    },
+    {
+      "text": "Having a wonderful time at the zoo.",
+      "type": "answer"
+    },
+    {
+      "text": "Having no legs, just toes.",
+      "type": "answer"
+    },
+    {
+      "text": "Having thirty sons named Chad.",
+      "type": "answer"
+    },
+    {
+      "text": "Having tuna sandwiches with my favorite honkies.",
+      "type": "answer"
+    },
+    {
+      "text": "Healthcare.gov.",
+      "type": "answer"
+    },
+    {
+      "text": "Hiding from border patrol.",
+      "type": "answer"
+    },
+    {
+      "text": "Hiking up a hillside covered in bear semen yelling \"I'm the queen of the forest!\"",
+      "type": "answer"
+    },
+    {
+      "text": "Hoopnugget, the game where you throw a nugget into a hoop.",
+      "type": "answer"
+    },
+    {
+      "text": "How many bagels I can fit on my penis.",
+      "type": "answer"
+    },
+    {
+      "text": "How quiet the forest is.",
+      "type": "answer"
+    },
+    {
+      "text": "Huffing and puffing and blowing my stepdad.",
+      "type": "answer"
+    },
+    {
+      "text": "Hunting white men for sport.",
+      "type": "answer"
+    },
+    {
+      "text": "Hush money.",
+      "type": "answer"
+    },
+    {
+      "text": "Interrupting women.",
+      "type": "answer"
+    },
+    {
+      "text": "Jeremy and his stupid, annoying, dumb, hard, beautiful body.",
+      "type": "answer"
+    },
+    {
+      "text": "Jormungandr the World Serpent.",
+      "type": "answer"
+    },
+    {
+      "text": "Joyless, wooden Soviet toys.",
+      "type": "answer"
+    },
+    {
+      "text": "Just a Luna bar for lunch.",
+      "type": "answer"
+    },
+    {
+      "text": "Kanye West but if he were an old Japanese farmer.",
+      "type": "answer"
+    },
+    {
+      "text": "Korean barbecue.",
+      "type": "answer"
+    },
+    {
+      "text": "Leading a country to war on false pretenses.",
+      "type": "answer"
+    },
+    {
+      "text": "Leading children around with a magical flute.",
+      "type": "answer"
+    },
+    {
+      "text": "Letting that pussy breathe.",
+      "type": "answer"
+    },
+    {
+      "text": "Letting this loser eat me out.",
+      "type": "answer"
+    },
+    {
+      "text": "Licking the toilet as Mistress commands.",
+      "type": "answer"
+    },
+    {
+      "text": "Life.",
+      "type": "answer"
+    },
+    {
+      "text": "Little Debbie and her mom, Full-Size Deborah.",
+      "type": "answer"
+    },
+    {
+      "text": "Lotion.",
+      "type": "answer"
+    },
+    {
+      "text": "Loving America.",
+      "type": "answer"
+    },
+    {
+      "text": "Magic: The Gathering.",
+      "type": "answer"
+    },
+    {
+      "text": "Making direct eye contact with a horse's asshole.",
+      "type": "answer"
+    },
+    {
+      "text": "Mark Zuckerberg.",
+      "type": "answer"
+    },
+    {
+      "text": "Maybe getting a little involved in selling heroin sometimes.",
+      "type": "answer"
+    },
+    {
+      "text": "Melania Trump.",
+      "type": "answer"
+    },
+    {
+      "text": "Murdering our parents.",
+      "type": "answer"
+    },
+    {
+      "text": "My buddy Jeff.",
+      "type": "answer"
+    },
+    {
+      "text": "My daughter fucking my boyfriend.",
+      "type": "answer"
+    },
+    {
+      "text": "My math teacher's bulge.",
+      "type": "answer"
+    },
+    {
+      "text": "My real dad.",
+      "type": "answer"
+    },
+    {
+      "text": "My secret butt.",
+      "type": "answer"
+    },
+    {
+      "text": "My son's dipshit friends.",
+      "type": "answer"
+    },
+    {
+      "text": "My son's husband's huge cock.",
+      "type": "answer"
+    },
+    {
+      "text": "My wife.\n(in Borat voice)",
+      "type": "answer"
+    },
+    {
+      "text": "Naked Dad.",
+      "type": "answer"
+    },
+    {
+      "text": "Netflix.",
+      "type": "answer"
+    },
+    {
+      "text": "New DNA evidence exonerating OJ Simpson.",
+      "type": "answer"
+    },
+    {
+      "text": "Nipples the size of CDs.",
+      "type": "answer"
+    },
+    {
+      "text": "None of your damn business.",
+      "type": "answer"
+    },
+    {
+      "text": "Nonsexual activiities, such as roller skating.",
+      "type": "answer"
+    },
+    {
+      "text": "Not being a part of my son's life.",
+      "type": "answer"
+    },
+    {
+      "text": "Oral.",
+      "type": "answer"
+    },
+    {
+      "text": "Outdated gender norms.",
+      "type": "answer"
+    },
+    {
+      "text": "Owing a lot of money to some very bad people.",
+      "type": "answer"
+    },
+    {
+      "text": "Panda Express.",
+      "type": "answer"
+    },
+    {
+      "text": "Panic and confusion.",
+      "type": "answer"
+    },
+    {
+      "text": "Pissin' me paants.",
+      "type": "answer"
+    },
+    {
+      "text": "Politics.",
+      "type": "answer"
+    },
+    {
+      "text": "Poppin' that pussy.",
+      "type": "answer"
+    },
+    {
+      "text": "Preparing my asshole for sex.",
+      "type": "answer"
+    },
+    {
+      "text": "Pretending golf is fun.",
+      "type": "answer"
+    },
+    {
+      "text": "Prison.",
+      "type": "answer"
+    },
+    {
+      "text": "Pulling a sick, shit-covered raccoon out of the toilet and nursing it back to health.",
+      "type": "answer"
+    },
+    {
+      "text": "Pulling the butt cheeks apart so the fart comes out quieter.",
+      "type": "answer"
+    },
+    {
+      "text": "Pushing my boob up to lick the nipple.",
+      "type": "answer"
+    },
+    {
+      "text": "Putting dirty dishes in the sink and hoping someone else deals with them.",
+      "type": "answer"
+    },
+    {
+      "text": "Quality, affordable menswear.",
+      "type": "answer"
+    },
+    {
+      "text": "Reparations for slavery.",
+      "type": "answer"
+    },
+    {
+      "text": "Representing the entire black community.",
+      "type": "answer"
+    },
+    {
+      "text": "Representing the entire Black community.",
+      "type": "answer"
+    },
+    {
+      "text": "Respecting woman.",
+      "type": "answer"
+    },
+    {
+      "text": "Rubbing my clit with a handgun.",
+      "type": "answer"
+    },
+    {
+      "text": "Sandwich.",
+      "type": "answer"
+    },
+    {
+      "text": "Schindler's List.",
+      "type": "answer"
+    },
+    {
+      "text": "Setting boundaries with co-workers.",
+      "type": "answer"
+    },
+    {
+      "text": "Sewing two hamsters together to make a Double Hamster Supreme.",
+      "type": "answer"
+    },
+    {
+      "text": "Shit.",
+      "type": "answer"
+    },
+    {
+      "text": "Shitting perfectly into a hot dog bun.",
+      "type": "answer"
+    },
+    {
+      "text": "Slaves.",
+      "type": "answer"
+    },
+    {
+      "text": "Slowly releasing a huge fart over the course of two minutes.",
+      "type": "answer"
+    },
+    {
+      "text": "Sluts, whores, and bitches.",
+      "type": "answer"
+    },
+    {
+      "text": "Small plates, or tapas if you will.",
+      "type": "answer"
+    },
+    {
+      "text": "Some cracker-ass motherfucker.",
+      "type": "answer"
+    },
+    {
+      "text": "Some light choking.",
+      "type": "answer"
+    },
+    {
+      "text": "Square dancing with other racists.",
+      "type": "answer"
+    },
+    {
+      "text": "Stapling a butterfly to a cow.",
+      "type": "answer"
+    },
+    {
+      "text": "Staying hydrated.",
+      "type": "answer"
+    },
+    {
+      "text": "Sticking my hard rat dick in my girlfiend's wet rat pussy.",
+      "type": "answer"
+    },
+    {
+      "text": "Substituting sweet potato fries for $2.",
+      "type": "answer"
+    },
+    {
+      "text": "Sucking the caviar straight out of a fish's pussy.",
+      "type": "answer"
+    },
+    {
+      "text": "Suddenly feeling really sad for 40 years.",
+      "type": "answer"
+    },
+    {
+      "text": "Swordplay.",
+      "type": "answer"
+    },
+    {
+      "text": "Taking a dump.",
+      "type": "answer"
+    },
+    {
+      "text": "Tar.",
+      "type": "answer"
+    },
+    {
+      "text": "The Asshole Destroyer 3000.",
+      "type": "answer"
+    },
+    {
+      "text": "The Audi Sign-and-Drive Sales Event.",
+      "type": "answer"
+    },
+    {
+      "text": "The awesome power of the Lord.",
+      "type": "answer"
+    },
+    {
+      "text": "The beautiful backpacks of JanSport.",
+      "type": "answer"
+    },
+    {
+      "text": "The boy who sucks the farts our of my sweatpants.",
+      "type": "answer"
+    },
+    {
+      "text": "The coming race war.",
+      "type": "answer"
+    },
+    {
+      "text": "The current political climate.",
+      "type": "answer"
+    },
+    {
+      "text": "The cutest fucking shoes I've ever seen.",
+      "type": "answer"
+    },
+    {
+      "text": "The end of all life on Earth.",
+      "type": "answer"
+    },
+    {
+      "text": "The express written consent of the National Basketball Association.",
+      "type": "answer"
+    },
+    {
+      "text": "The fact that time is moving backwards right now and nobody's noticing.",
+      "type": "answer"
+    },
+    {
+      "text": "The harsh reality that all horses are people in horse costumes.",
+      "type": "answer"
+    },
+    {
+      "text": "The incredible Gary, he'll suck your nipples.",
+      "type": "answer"
+    },
+    {
+      "text": "The kind of porn with poop.",
+      "type": "answer"
+    },
+    {
+      "text": "The King of Jews.",
+      "type": "answer"
+    },
+    {
+      "text": "The little-known fact that Polish people don't dream.",
+      "type": "answer"
+    },
+    {
+      "text": "The man in the basement.",
+      "type": "answer"
+    },
+    {
+      "text": "The man who fucks me and my wife.",
+      "type": "answer"
+    },
+    {
+      "text": "The Moon.",
+      "type": "answer"
+    },
+    {
+      "text": "The NRA.",
+      "type": "answer"
+    },
+    {
+      "text": "The pelican that will one day eat Scarlett Johansson's baby.",
+      "type": "answer"
+    },
+    {
+      "text": "The persecution of Buddhists by the American-backed government of South Vietnam.",
+      "type": "answer"
+    },
+    {
+      "text": "The pleasure of watching my boys wolf down my pot roast and scamper into the woods.",
+      "type": "answer"
+    },
+    {
+      "text": "The rock after which Dwayne Johnson was named.",
+      "type": "answer"
+    },
+    {
+      "text": "The South rising again.",
+      "type": "answer"
+    },
+    {
+      "text": "The wonderful giant spoon known as \"ladle.\"",
+      "type": "answer"
+    },
+    {
+      "text": "The world's largest baby, weighing over 700 pounds.",
+      "type": "answer"
+    },
+    {
+      "text": "The worm that ate my penis and is now my penis.",
+      "type": "answer"
+    },
+    {
+      "text": "These breasts of mine.",
+      "type": "answer"
+    },
+    {
+      "text": "This boring-ass white bitch from work.",
+      "type": "answer"
+    },
+    {
+      "text": "This kid I found.",
+      "type": "answer"
+    },
+    {
+      "text": "Thoughts and prayers.",
+      "type": "answer"
+    },
+    {
+      "text": "Three men and three hot dogs.",
+      "type": "answer"
+    },
+    {
+      "text": "Throwing a man by his big penis.",
+      "type": "answer"
+    },
+    {
+      "text": "Thrusting and grunting.",
+      "type": "answer"
+    },
+    {
+      "text": "Thumb, the King of the Fingers.",
+      "type": "answer"
+    },
+    {
+      "text": "Tiny, sour kisses from a lemon dwarf.",
+      "type": "answer"
+    },
+    {
+      "text": "Travolta.",
+      "type": "answer"
+    },
+    {
+      "text": "Trees with human skin.",
+      "type": "answer"
+    },
+    {
+      "text": "Turning poor people against each other so they don't pay attention to economic inequality.",
+      "type": "answer"
+    },
+    {
+      "text": "Twirling a cane, popping it into my anus, and giving a tip of the top hat.",
+      "type": "answer"
+    },
+    {
+      "text": "Uncles.",
+      "type": "answer"
+    },
+    {
+      "text": "Uncut daddy dick.",
+      "type": "answer"
+    },
+    {
+      "text": "Violating the Geneva Convention.",
+      "type": "answer"
+    },
+    {
+      "text": "Voldemort.",
+      "type": "answer"
+    },
+    {
+      "text": "Voter suppression.",
+      "type": "answer"
+    },
+    {
+      "text": "What looked like a chemical weapons facility but turned out to be a children's hospital.",
+      "type": "answer"
+    },
+    {
+      "text": "Women in positions of power.",
+      "type": "answer"
+    },
+    {
+      "text": "Yo stanky ass.",
+      "type": "answer"
+    },
+    {
+      "text": "Yogurt that moans in pleasure as you eat it.",
+      "type": "answer"
+    },
+    {
+      "text": "Your little booty in them underpants.",
+      "type": "answer"
+    },
+    {
+      "text": "Your mouth.",
+      "type": "answer"
+    },
+    {
+      "text": "Yummy yummy yummy yummy rat pussy.",
+      "type": "answer"
+    },
+    {
+      "text": "may pass, but  will last forever.",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "will never be the same after .",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "\"This is madness.\" \"No, THIS IS _!\"",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "2 AM in the city that never sleeps. The door swings open and she walks in, legs up to here. Something in her eyes tells me she's looking for _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Adventure. Romance. . From Paramount Pictures, \".\"",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "And today's soup is Cream of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "And would you like those buffalo wings mild, hot, or _?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Armani suit: $1,000. Dinner for two at that swanky restaurant: $300. The look on her face when you surprise her with _: priceless.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "As king, how will I keep the peasants in line?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Behind every powerful man is _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Come to Dubai, where you can relax in our world-famous spas, experience the nightlife, or simply enjoy _ by the poolside.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Dammit Gary. You can't just solve every problem with _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Dear Leader Kim Jong-un, our village praises your infinite wisdom with a humble offering of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Do not fuck with me! I am literally _ right now.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Do the Dew with our most extreme flavor yet! Get ready for Mountain Dew _!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Do you lack energy? Does it sometimes feel like the whole world is _ ? Ask your doctor about Zoloft.\u00ae",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Don't forget! Beginning this week, Casual Friday will officially become \"_ Friday.\"",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Don't worry kid. It gets better. I've been living with _ for 20 years.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Every step towards  gets me a little bit closer to .",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "Everybody join hands and close your eyes. Do you sense that? That's the presence of _ in this room.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Forget everything you know about , because now we've supercharged it with !",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "Get ready for the movie of the summer! One cop plays by the book. The other's only interested in one thing: _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Having the worst day EVER. #_",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Heed my voice, mortals! I am the god of  , and I will not tolerate !",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "Help me doctor, I've got _ in my butt!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Here at the Academy for Gifted Children, we allow students to explore _ at their own pace.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Hi MTV! My name is Kendra, I live in Malibu, I'm into _, and I love to have a good time.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Hi, this is Jim from accounting. We noticed a $1,200 charge labeled \"_.\" Can you explain?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Honey, I have a new role-play I want to try tonight! You can be , and I'll be .",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "How am I compensating for my tiny penis?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "I am become , destroyer of !",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "I don't mean to brag, but they call me the Micheal Jordan of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "I have a strict policy. First date, dinner. Second date, kiss. Third date, _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "I work my ass off all day for this family, and this is what I come home to? _!?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "I'm Miss Tennessee, and if I could make the world better by changing one thing, I would get rid of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "I'm pretty sure I'm high right now, because I\"m absolutely mesmerized by _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "I'm sorry, Mrs. Chen, but there was nothing we could do. At 4:15 this morning, your son succumbed to _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "I'm sorry, sir, but we don't allow _ at the country club.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "If you can't handle , you'd better stay away from .",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "If you had to describe the Card Czar, using only one of the cards in your hand, which one would it be?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "In his farewell address, George Washington famously warned Americans about the dangers of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "In his new action comedy, Jackie Chan must fend off ninjas while also dealing with _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "In return for my soul, the Devil promised me , but all I got was .",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "In the beginning, there was . And the Lord said, \"Let there be .\"",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "It lurks in the night. It hungers for flesh. This summer, no one is safe from _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "James is a lonely boy. But when he discovers a secret door in his attic, he meets a magical new friend: _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Life's pretty tough in the fast lane. That's why I never leave the house without _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Listen Gary, I like you. But if you want that corner office, you're going to have to show me _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Man, this is bullshit. Fuck _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "My grandfather worked his way up from nothing. When he came to this country, all he had was the shoes on his feet and _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Now in bookstores: \"The Audacity of _\" by Barack Obama.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Oprah's book of the month is \" For : A Story of Hope.\"",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "Patient presents with . Likely a result of .",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "Puberty is a time of change. You might notice hair growing in new places. You might develop an intrest in _. This is normal.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "She's up all night for good fun. I'm up all night for _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "The Japanese have developed a smaller, more efficient version of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "The six things I could never do without: oxygen, Facebook, chocolate, Netflix, friends, and _ LOL!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "This is America. If you don't work hard, you don't succeed. I don't care if you're black, white, purple, or _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "This is the prime of my life. I'm young, hot, and full of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "This year's hottest album is \"\" by .",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "To become a true Yanomami warrior, you must prove that you can withstand _ without crying out.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "To become a true Yanomamo warrior, you must prove that you can withstand _ without crying out.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Tonight we will have sex. And afterwards, If you'd like, a little bit of _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "We never did find , but along the way we sure learned a lot about .",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "Well if  is good enough for , it's good enough for me.",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "Well what do you have to say for yourself, Casey? This is the third time you've been sent to the principal's office for _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Wes Anderson's new film tells the story of a precocious child coming to terms with _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What killed my boner?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What's fun until it gets weird?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "What's making things awkward in the sauna?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "When I was a kid, we used to play Cowboys and _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "WHOOO! God damn I love _!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Why am I broke?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Why won't you make love to me anymore? Is it _?",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Y'all ready to get this thing started? I'm Nick Cannon, and this is America's Got _.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "Yo' mama's so fat she _!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "You are not alone. Millions of Americans struggle with _ every day.",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "You guys, I saw this crazy movie last night. It opens on , and then there's some stuff about , and then it ends with _.",
+      "type": "prompt",
+      "pick": 3
+    },
+    {
+      "text": "You know, once you get past ,  ain't so bad.",
+      "type": "prompt",
+      "pick": 2
+    },
+    {
+      "text": "You Won't Believe These 15 Hilarious _ Bloopers!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "You've seen the bearded lady! You've seen the ring of fire! Now, ladies and gentlemen, feast your eyes upon _!",
+      "type": "prompt",
+      "pick": 1
+    },
+    {
+      "text": "10 Incredible Facts About the Anus.",
+      "type": "answer"
+    },
+    {
+      "text": "40 acres and a mule.",
+      "type": "answer"
+    },
+    {
+      "text": "A bass drop so huge it tears the starry vault asunder to reveal the face of God.",
+      "type": "answer"
+    },
+    {
+      "text": "A bunch of idiots playing a card game instead of interacting like normal humans.",
+      "type": "answer"
+    },
+    {
+      "text": "A buttload of candy.",
+      "type": "answer"
+    },
+    {
+      "text": "A chimpanzee in sunglasses fucking your wife.",
+      "type": "answer"
+    },
+    {
+      "text": "A constant need for validation.",
+      "type": "answer"
+    },
+    {
+      "text": "A crazy little thing called love.",
+      "type": "answer"
+    },
+    {
+      "text": "A dance move that's just sex.",
+      "type": "answer"
+    },
+    {
+      "text": "A disappointing salad.",
+      "type": "answer"
+    },
+    {
+      "text": "A face full of horse cum.",
+      "type": "answer"
+    },
+    {
+      "text": "A fart.",
+      "type": "answer"
+    },
+    {
+      "text": "A for-real lizard that spits blood from its eyes.",
+      "type": "answer"
+    },
+    {
+      "text": "A gender identity that can only be conveyed through slam poetry.",
+      "type": "answer"
+    },
+    {
+      "text": "A giant powdery manbaby.",
+      "type": "answer"
+    },
+    {
+      "text": "A hopeless amount of spiders.",
+      "type": "answer"
+    },
+    {
+      "text": "A horse with no legs.",
+      "type": "answer"
+    },
+    {
+      "text": "A kiss on the lips.",
+      "type": "answer"
+    },
+    {
+      "text": "A lil' stupid ass bitch.",
+      "type": "answer"
+    },
+    {
+      "text": "A man who is so cool that he rides on a motorcycle.",
+      "type": "answer"
+    },
+    {
+      "text": "A manhole.",
+      "type": "answer"
+    },
+    {
+      "text": "A mouthful of potato salad.",
+      "type": "answer"
+    },
+    {
+      "text": "A Native American who solves crimes by going into the spirit world.",
+      "type": "answer"
+    },
+    {
+      "text": "A one-way ticket to Gary, Indiana.",
+      "type": "answer"
+    },
+    {
+      "text": "A peyote-fueled vision quest.",
+      "type": "answer"
+    },
+    {
+      "text": "A pizza guy who fucked up.",
+      "type": "answer"
+    },
+    {
+      "text": "A possible Muslim.",
+      "type": "answer"
+    },
+    {
+      "text": "A reason not to commit suicide.",
+      "type": "answer"
+    },
+    {
+      "text": "A self-microwaving burrito.",
+      "type": "answer"
+    },
+    {
+      "text": "A sex comet from Neptune that plunges the Earth into eternal sexiness.",
+      "type": "answer"
+    },
+    {
+      "text": "A sex goblin with a carnival penis.",
+      "type": "answer"
+    },
+    {
+      "text": "A shiny rock that proves I love you.",
+      "type": "answer"
+    },
+    {
+      "text": "A team of lawyers.",
+      "type": "answer"
+    },
+    {
+      "text": "A thrilling chase over the rooftops of Rio de Janeiro.",
+      "type": "answer"
+    },
+    {
+      "text": "A turd.",
+      "type": "answer"
+    },
+    {
+      "text": "A Ugandan warlord.",
+      "type": "answer"
+    },
+    {
+      "text": "A whole lotta woman.",
+      "type": "answer"
+    },
+    {
+      "text": "A whole new kind of porn.",
+      "type": "answer"
+    },
+    {
+      "text": "A woman.",
+      "type": "answer"
+    },
+    {
+      "text": "A zero-risk way to make $2,000 from home.",
+      "type": "answer"
+    },
+    {
+      "text": "Actual mutants with medical conditions and no superpowers.",
+      "type": "answer"
+    },
+    {
+      "text": "Africa.",
+      "type": "answer"
+    },
+    {
+      "text": "AIDS monkeys.",
+      "type": "answer"
+    },
+    {
+      "text": "All the single ladies.",
+      "type": "answer"
+    },
+    {
+      "text": "All these decorative pillows.",
+      "type": "answer"
+    },
+    {
+      "text": "Almost giving money to a homeless person.",
+      "type": "answer"
+    },
+    {
+      "text": "Ambiguous sarcasm.",
+      "type": "answer"
+    },
+    {
+      "text": "An inability to form meaningful relationships.",
+      "type": "answer"
+    },
+    {
+      "text": "An interracial handshake.",
+      "type": "answer"
+    },
+    {
+      "text": "An oppressed people with a vibrant culture.",
+      "type": "answer"
+    },
+    {
+      "text": "An overwhelming variety of cheeses.",
+      "type": "answer"
+    },
+    {
+      "text": "An unforgettable quinceanera.",
+      "type": "answer"
+    },
+    {
+      "text": "An uninterrupted history of imperialism and exploitation.",
+      "type": "answer"
+    },
+    {
+      "text": "Anal fissures like you wouldn't believe.",
+      "type": "answer"
+    },
+    {
+      "text": "Ancient Athenian boy-fucking.",
+      "type": "answer"
+    },
+    {
+      "text": "Angelheaded hipsters burning for the ancient heavenly connection to the starry dynamo in the machinery of night.",
+      "type": "answer"
+    },
+    {
+      "text": "Ass to mouth.",
+      "type": "answer"
+    },
+    {
+      "text": "Backwards knees.",
+      "type": "answer"
+    },
+    {
+      "text": "Bathing in moonsblood and dancing around the ancient oak.",
+      "type": "answer"
+    },
+    {
+      "text": "Being a terrible mother.",
+      "type": "answer"
+    },
+    {
+      "text": "Being John Malkovich.",
+      "type": "answer"
+    },
+    {
+      "text": "Being nine years old.",
+      "type": "answer"
+    },
+    {
+      "text": "Being paralyzed from the neck down.",
+      "type": "answer"
+    },
+    {
+      "text": "Being popular and good at sports.",
+      "type": "answer"
+    },
+    {
+      "text": "Being worshipped as the one true God.",
+      "type": "answer"
+    },
+    {
+      "text": "Beloved television star Bill Cosby.",
+      "type": "answer"
+    },
+    {
+      "text": "Blackface.",
+      "type": "answer"
+    },
+    {
+      "text": "Blackula.",
+      "type": "answer"
+    },
+    {
+      "text": "Blowjobs for everyone.",
+      "type": "answer"
+    },
+    {
+      "text": "Boring Vaginal sex.",
+      "type": "answer"
+    },
+    {
+      "text": "Bouncing up and down.",
+      "type": "answer"
+    },
+    {
+      "text": "Breastfeeding a ten year old.",
+      "type": "answer"
+    },
+    {
+      "text": "Breastfeeding a ten-year-old.",
+      "type": "answer"
+    },
+    {
+      "text": "Bullets.",
+      "type": "answer"
+    },
+    {
+      "text": "Butt stuff.",
+      "type": "answer"
+    },
+    {
+      "text": "Calculating every mannerism so as not to suggest homosexuality.",
+      "type": "answer"
+    },
+    {
+      "text": "Cancer.",
+      "type": "answer"
+    },
+    {
+      "text": "Changing a person's mind with logic and facts.",
+      "type": "answer"
+    },
+    {
+      "text": "Child Protective Services.",
+      "type": "answer"
+    },
+    {
+      "text": "Child support payments.",
+      "type": "answer"
+    },
+    {
+      "text": "Common-sense gun control legislation.",
+      "type": "answer"
+    },
+    {
+      "text": "Cool, relatable cancer teens.",
+      "type": "answer"
+    },
+    {
+      "text": "Crazy opium eyes.",
+      "type": "answer"
+    },
+    {
+      "text": "Crippling social anxiety.",
+      "type": "answer"
+    },
+    {
+      "text": "Crying and shitting and eating spaghetti.",
+      "type": "answer"
+    },
+    {
+      "text": "Cute boys.",
+      "type": "answer"
+    },
+    {
+      "text": "Cutting off a flamingo's legs with garden shears.",
+      "type": "answer"
+    },
+    {
+      "text": "Daddy.",
+      "type": "answer"
+    },
+    {
+      "text": "Daddy's credit card.",
+      "type": "answer"
+    },
+    {
+      "text": "Deez nuts.",
+      "type": "answer"
+    },
+    {
+      "text": "Dem titties.",
+      "type": "answer"
+    },
+    {
+      "text": "Depression.",
+      "type": "answer"
+    },
+    {
+      "text": "Doing the right stuff to her nipples.",
+      "type": "answer"
+    },
+    {
+      "text": "Doo-doo.",
+      "type": "answer"
+    },
+    {
+      "text": "Drinking responsibly.",
+      "type": "answer"
+    },
+    {
+      "text": "Eating together like a god damn family for once.",
+      "type": "answer"
+    },
+    {
+      "text": "Eggs.",
+      "type": "answer"
+    },
+    {
+      "text": "Ejaculating inside another man's wife.",
+      "type": "answer"
+    },
+    {
+      "text": "Ejaculating live bees and the bees are angry.",
+      "type": "answer"
+    },
+    {
+      "text": "Ennui.",
+      "type": "answer"
+    },
+    {
+      "text": "Every ounce of charisma left in Mick Jagger's tired body.",
+      "type": "answer"
+    },
+    {
+      "text": "Exploding pigeons.",
+      "type": "answer"
+    },
+    {
+      "text": "Falling into the toilet.",
+      "type": "answer"
+    },
+    {
+      "text": "Figuring out how to have sex with a dolphin.",
+      "type": "answer"
+    },
+    {
+      "text": "Filling a man's anus with concrete.",
+      "type": "answer"
+    },
+    {
+      "text": "Finally finishing off the Indians.",
+      "type": "answer"
+    },
+    {
+      "text": "Free ice cream, yo.",
+      "type": "answer"
+    },
+    {
+      "text": "Fresh dill from the patio.",
+      "type": "answer"
+    },
+    {
+      "text": "Fucking a corpse back to life.",
+      "type": "answer"
+    },
+    {
+      "text": "Generally having no idea what's going on.",
+      "type": "answer"
+    },
+    {
+      "text": "Genghis Khan's DNA.",
+      "type": "answer"
+    },
+    {
+      "text": "Getting all offended.",
+      "type": "answer"
+    },
+    {
+      "text": "Getting caught by the police and going to jail.",
+      "type": "answer"
+    },
+    {
+      "text": "Getting down to business to defeat the Huns.",
+      "type": "answer"
+    },
+    {
+      "text": "Getting drive-by shot.",
+      "type": "answer"
+    },
+    {
+      "text": "Getting eaten alive by Guy Fieri.",
+      "type": "answer"
+    },
+    {
+      "text": "Getting offended.",
+      "type": "answer"
+    }
+  ]
+}

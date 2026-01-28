@@ -19,9 +19,20 @@ def load_packs():
                 pack = json.load(f)
                 pack['filename'] = filename.replace('.json', '')
                 pack['count'] = len(pack.get('questions', []))
+                pack['category'] = 'default'
                 packs.append(pack)
     
-    # Sort by order if specified, otherwise by name
+    cah_dir = os.path.join(cards_dir, 'cah')
+    if os.path.exists(cah_dir):
+        for filename in os.listdir(cah_dir):
+            if filename.endswith('.json'):
+                with open(os.path.join(cah_dir, filename), 'r', encoding='utf-8') as f:
+                    pack = json.load(f)
+                    pack['filename'] = filename.replace('.json', '')
+                    pack['count'] = len(pack.get('questions', []))
+                    pack['category'] = 'cah'
+                    packs.append(pack)
+    
     packs.sort(key=lambda x: (x.get('order', 99), x.get('pack_name', '')))
     return packs
 
@@ -58,11 +69,21 @@ def play():
     for pack in all_packs:
         if pack['filename'] in pack_names or pack['pack_name'] in pack_names:
             for q in pack.get('questions', []):
+                if isinstance(q, str):
+                    card_text = q
+                    card_type = 'action' if any(x in q.lower() for x in ['kiss', 'touch', 'hug', 'hold', 'whisper']) else 'question'
+                    card_pick = 1
+                else:
+                    card_text = q.get('text', '')
+                    raw_type = q.get('type', 'question')
+                    card_type = 'question' if raw_type in ('prompt', 'question') else ('answer' if raw_type == 'answer' else raw_type)
+                    card_pick = q.get('pick', 1)
                 questions.append({
-                    'text': q if isinstance(q, str) else q.get('text', ''),
-                    'type': 'action' if (isinstance(q, dict) and q.get('type') == 'action') or (isinstance(q, str) and any(x in q.lower() for x in ['kiss', 'touch', 'hug', 'hold', 'whisper'])) else 'question',
+                    'text': card_text,
+                    'type': card_type,
                     'pack': pack['pack_name'],
-                    'spicy': pack.get('spicy_level', 1)
+                    'spicy': pack.get('spicy_level', 1),
+                    'pick': card_pick
                 })
     
     random.shuffle(questions)

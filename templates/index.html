@@ -39,31 +39,71 @@
                     <p class="section-desc">Select one or more card packs for your session</p>
                 </div>
                 
-                <div class="packs-grid">
-                    {% for pack in packs %}
-                    <label class="pack-card" data-spicy="{{ pack.spicy_level | default(1) }}">
-                        <input type="checkbox" name="packs" value="{{ pack.filename }}" class="pack-checkbox">
-                        <div class="pack-content">
-                            <div class="pack-header">
-                                <span class="pack-emoji">{{ pack.emoji | default('🎴') }}</span>
-                                {% if pack.badge %}
-                                <span class="pack-badge badge-{{ pack.badge | lower | replace('+', '') }}">{{ pack.badge }}</span>
-                                {% endif %}
-                            </div>
-                            <h3 class="pack-name">{{ pack.pack_name }}</h3>
-                            <p class="pack-desc">{{ pack.pack_description }}</p>
-                            <div class="pack-footer">
-                                <span class="card-count">{{ pack.count }} cards</span>
-                                <div class="spicy-meter">
-                                    {% for i in range(5) %}
-                                    <span class="spicy-dot {% if i < pack.spicy_level | default(1) %}active{% endif %}">🔥</span>
-                                    {% endfor %}
+                <!-- Regular Hidden Ties packs -->
+                <div class="packs-section">
+                    <h3 class="packs-section-title">💕 Hidden Ties Packs</h3>
+                    <div class="packs-grid">
+                        {% for pack in packs if pack.category != 'cah' %}
+                        <label class="pack-card" data-spicy="{{ pack.spicy_level | default(1) }}">
+                            <input type="checkbox" name="packs" value="{{ pack.filename }}" class="pack-checkbox">
+                            <div class="pack-content">
+                                <div class="pack-header">
+                                    <span class="pack-emoji">{{ pack.emoji | default('🎴') }}</span>
+                                    {% if pack.badge %}
+                                    <span class="pack-badge badge-{{ pack.badge | lower | replace('+', '') }}">{{ pack.badge }}</span>
+                                    {% endif %}
+                                </div>
+                                <h3 class="pack-name">{{ pack.pack_name }}</h3>
+                                <p class="pack-desc">{{ pack.pack_description }}</p>
+                                <div class="pack-footer">
+                                    <span class="card-count">{{ pack.count }} cards</span>
+                                    <div class="spicy-meter">
+                                        {% for i in range(5) %}
+                                        <span class="spicy-dot {% if i < pack.spicy_level | default(1) %}active{% endif %}">🔥</span>
+                                        {% endfor %}
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="pack-selected-indicator">✓</div>
-                    </label>
-                    {% endfor %}
+                            <div class="pack-selected-indicator">✓</div>
+                        </label>
+                        {% endfor %}
+                    </div>
+                </div>
+
+                <!-- CAH Section with distinct styling -->
+                <div class="packs-section cah-section">
+                    <div class="cah-header">
+                        <h3 class="packs-section-title">🃏 Cards Against Humanity</h3>
+                        <span class="cah-badge">CC BY-NC-SA</span>
+                    </div>
+                    <p class="cah-warning">⚠️ Explicit adult content. Not for the easily offended.</p>
+                    <div class="packs-grid">
+                        {% for pack in packs if pack.category == 'cah' %}
+                        <label class="pack-card" data-spicy="{{ pack.spicy_level | default(1) }}">
+                            <input type="checkbox" name="packs" value="{{ pack.filename }}" class="pack-checkbox">
+                            <div class="pack-content">
+                                <div class="pack-header">
+                                    <span class="pack-emoji">{{ pack.emoji | default('🎴') }}</span>
+                                    {% if pack.badge %}
+                                    <span class="pack-badge badge-{{ pack.badge | lower | replace('+', '') }}">{{ pack.badge }}</span>
+                                    {% endif %}
+                                </div>
+                                <h3 class="pack-name">{{ pack.pack_name }}</h3>
+                                <p class="pack-desc">{{ pack.pack_description }}</p>
+                                <div class="pack-footer">
+                                    <span class="card-count">{{ pack.count }} cards</span>
+                                    <div class="spicy-meter">
+                                        {% for i in range(5) %}
+                                        <span class="spicy-dot {% if i < pack.spicy_level | default(1) %}active{% endif %}">🔥</span>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pack-selected-indicator">✓</div>
+                        </label>
+                        {% endfor %}
+                    </div>
+                    <p class="cah-attribution">Content licensed under CC BY-NC-SA 4.0</p>
                 </div>
                 
                 <div class="quick-start">
