@@ -3,6 +3,113 @@ let currentIndex = 0;
 let currentPlayer = 1;
 const totalCards = questions.length;
 
+// Confetti system
+const confettiCanvas = document.getElementById('confettiCanvas');
+const confettiCtx = confettiCanvas ? confettiCanvas.getContext('2d') : null;
+let confettiParticles = [];
+let confettiAnimationId = null;
+
+function resizeConfettiCanvas() {
+    if (!confettiCanvas) return;
+    confettiCanvas.width = window.innerWidth;
+    confettiCanvas.height = window.innerHeight;
+}
+
+window.addEventListener('resize', resizeConfettiCanvas);
+resizeConfettiCanvas();
+
+class ConfettiParticle {
+    constructor() {
+        this.x = Math.random() * confettiCanvas.width;
+        this.y = -20;
+        this.size = Math.random() * 8 + 4;
+        this.speedY = Math.random() * 3 + 2;
+        this.speedX = Math.random() * 4 - 2;
+        this.rotation = Math.random() * 360;
+        this.rotationSpeed = Math.random() * 10 - 5;
+        this.color = ['#ff6b9d', '#c44dff', '#00d4ff', '#fbbf24', '#4ade80'][Math.floor(Math.random() * 5)];
+        this.opacity = 1;
+    }
+
+    update() {
+        this.y += this.speedY;
+        this.x += this.speedX;
+        this.rotation += this.rotationSpeed;
+        this.speedY += 0.05; // gravity
+
+        // Fade out near bottom
+        if (this.y > confettiCanvas.height - 100) {
+            this.opacity -= 0.02;
+        }
+    }
+
+    draw() {
+        confettiCtx.save();
+        confettiCtx.translate(this.x, this.y);
+        confettiCtx.rotate((this.rotation * Math.PI) / 180);
+        confettiCtx.globalAlpha = this.opacity;
+        confettiCtx.fillStyle = this.color;
+        confettiCtx.fillRect(-this.size / 2, -this.size / 2, this.size, this.size * 0.6);
+        confettiCtx.restore();
+    }
+}
+
+function launchConfetti() {
+    if (!confettiCanvas || !confettiCtx) return;
+
+    // Respect reduced motion preference
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        return;
+    }
+
+    // Create initial burst
+    for (let i = 0; i < 100; i++) {
+        setTimeout(() => {
+            confettiParticles.push(new ConfettiParticle());
+        }, i * 20);
+    }
+
+    // Add more confetti over time
+    let burstCount = 0;
+    const burstInterval = setInterval(() => {
+        for (let i = 0; i < 20; i++) {
+            confettiParticles.push(new ConfettiParticle());
+        }
+        burstCount++;
+        if (burstCount > 3) clearInterval(burstInterval);
+    }, 300);
+
+    animateConfetti();
+}
+
+function animateConfetti() {
+    if (!confettiCanvas || !confettiCtx) return;
+
+    confettiCtx.clearRect(0, 0, confettiCanvas.width, confettiCanvas.height);
+
+    confettiParticles = confettiParticles.filter(p => p.opacity > 0 && p.y < confettiCanvas.height + 20);
+
+    confettiParticles.forEach(p => {
+        p.update();
+        p.draw();
+    });
+
+    if (confettiParticles.length > 0) {
+        confettiAnimationId = requestAnimationFrame(animateConfetti);
+    }
+}
+
+function stopConfetti() {
+    if (confettiAnimationId) {
+        cancelAnimationFrame(confettiAnimationId);
+        confettiAnimationId = null;
+    }
+    confettiParticles = [];
+    if (confettiCtx && confettiCanvas) {
+        confettiCtx.clearRect(0, 0, confettiCanvas.width, confettiCanvas.height);
+    }
+}
+
 // DOM Elements
 const gameCard = document.getElementById('gameCard');
 const cardText = document.getElementById('cardText');
@@ -41,10 +148,16 @@ function init() {
 function displayCard(index) {
     const question = questions[index];
     
-    // Animate card
-    gameCard.classList.remove('enter', 'swipe-left', 'swipe-right');
-    void gameCard.offsetWidth; // Trigger reflow
-    gameCard.classList.add('enter');
+    // Remove animation classes and reset will-change
+    gameCard.classList.remove('enter', 'swipe-left', 'swipe-right', 'snap-back');
+    gameCard.style.willChange = 'auto';
+    
+    // Use rAF to batch class changes after style recalculation
+    requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+            gameCard.classList.add('enter');
+        });
+    });
     
     // Update content
     cardText.textContent = question.text;
@@ -82,7 +195,11 @@ function nextCard() {
     if (currentIndex < totalCards - 1) {
         gameCard.classList.add('swipe-left');
         
-        setTimeout(() => {
+        gameCard.addEventListener('animationend', function onSwipeLeft(e) {
+            if (e.animationName !== 'swipeLeft') return;
+            gameCard.removeEventListener('animationend', onSwipeLeft);
+            gameCard.style.willChange = 'auto';
+            
             currentIndex++;
             
             // Handle player rotation based on game mode
@@ -103,7 +220,7 @@ function nextCard() {
             
             displayCard(currentIndex);
             updateProgress();
-        }, 200);
+        });
     } else {
         showCompleteModal();
     }
@@ -114,7 +231,11 @@ function prevCard() {
     if (currentIndex > 0) {
         gameCard.classList.add('swipe-right');
         
-        setTimeout(() => {
+        gameCard.addEventListener('animationend', function onSwipeRight(e) {
+            if (e.animationName !== 'swipeRight') return;
+            gameCard.removeEventListener('animationend', onSwipeRight);
+            gameCard.style.willChange = 'auto';
+            
             currentIndex--;
             
             // Handle player rotation backwards
@@ -125,7 +246,7 @@ function prevCard() {
             
             displayCard(currentIndex);
             updateProgress();
-        }, 200);
+        });
     }
 }
 
@@ -136,9 +257,12 @@ function skipCard() {
         questions.push(skipped);
         
         gameCard.classList.add('swipe-left');
-        setTimeout(() => {
+        gameCard.addEventListener('animationend', function onSkip(e) {
+            if (e.animationName !== 'swipeLeft') return;
+            gameCard.removeEventListener('animationend', onSkip);
+            gameCard.style.willChange = 'auto';
             displayCard(currentIndex);
-        }, 200);
+        });
     }
 }
 
@@ -157,11 +281,34 @@ function closePassModal() {
 
 // Show complete modal
 function showCompleteModal() {
+    // Dynamic celebration messages
+    const messages = [
+        { emoji: '🎉', title: 'Amazing Session!', subtitle: 'You really went there!' },
+        { emoji: '🔥', title: 'That Got Spicy!', subtitle: 'Hope you learned something new!' },
+        { emoji: '💕', title: 'Connection Made!', subtitle: 'You\'re closer than ever!' },
+        { emoji: '🎊', title: 'Game Complete!', subtitle: 'What a ride!' },
+    ];
+
+    const msg = messages[Math.floor(Math.random() * messages.length)];
+
+    const modalEmoji = completeModal.querySelector('.modal-emoji');
+    const modalTitle = completeModal.querySelector('h2');
+
+    if (modalEmoji) modalEmoji.textContent = msg.emoji;
+    if (modalTitle) modalTitle.textContent = msg.title;
+
     completeModal.classList.add('active');
+    launchConfetti();
+
+    // Optional: haptic burst
+    if (navigator.vibrate) {
+        navigator.vibrate([50, 30, 50, 30, 100]);
+    }
 }
 
 // Restart game
 function restartGame() {
+    stopConfetti();
     completeModal.classList.remove('active');
     currentIndex = 0;
     currentPlayer = 1;
@@ -215,87 +362,151 @@ function setupEventListeners() {
     });
 }
 
-// Setup swipe gestures
+// Setup swipe gestures with Tinder-grade physics
 function setupSwipeGestures() {
-    let touchStartX = 0;
-    let touchEndX = 0;
+    const cardWrapper = document.getElementById('cardWrapper');
+    const swipeHintLeft = document.querySelector('.swipe-hint.left');
+    const swipeHintRight = document.querySelector('.swipe-hint.right');
+    
+    // rAF-based drag state
+    let rafId = null;
+    let dragState = { x: 0, rotation: 0 };
+    
+    // Velocity tracking
+    let lastX = 0;
+    let lastTime = 0;
+    let velocity = 0;
+    
+    // Drag state
+    let startX = 0;
     let isDragging = false;
     
-    const cardWrapper = document.getElementById('cardWrapper');
+    const maxRotation = 15;
+    const distanceThreshold = window.innerWidth * 0.2;
+    const velocityThreshold = 0.5;
     
-    cardWrapper.addEventListener('touchstart', (e) => {
-        touchStartX = e.changedTouches[0].screenX;
+    function updateDragVisual() {
+        gameCard.style.transform = `translateX(${dragState.x}px) rotate(${dragState.rotation}deg)`;
+        rafId = null;
+    }
+    
+    function updateSwipeHints(diff) {
+        if (!swipeHintLeft || !swipeHintRight) return;
+        const progress = Math.min(Math.abs(diff) / distanceThreshold, 1);
+        if (diff < 0) {
+            swipeHintLeft.classList.toggle('active', progress > 0.3);
+            swipeHintRight.classList.remove('active');
+        } else if (diff > 0) {
+            swipeHintRight.classList.toggle('active', progress > 0.3);
+            swipeHintLeft.classList.remove('active');
+        } else {
+            swipeHintLeft.classList.remove('active');
+            swipeHintRight.classList.remove('active');
+        }
+    }
+    
+    function handleDragStart(x) {
+        startX = x;
+        lastX = x;
+        lastTime = performance.now();
+        velocity = 0;
         isDragging = true;
+        cardWrapper.classList.add('dragging');
+        gameCard.style.willChange = 'transform';
+        gameCard.style.transition = 'none';
+    }
+    
+    function handleDragMove(x) {
+        if (!isDragging) return;
+        
+        const now = performance.now();
+        const dt = now - lastTime;
+        if (dt > 0) {
+            velocity = (x - lastX) / dt;
+        }
+        lastX = x;
+        lastTime = now;
+        
+        const diff = x - startX;
+        dragState.x = diff;
+        dragState.rotation = (diff / window.innerWidth) * maxRotation;
+        
+        updateSwipeHints(diff);
+        
+        if (!rafId) {
+            rafId = requestAnimationFrame(updateDragVisual);
+        }
+    }
+    
+    function handleDragEnd(x) {
+        if (!isDragging) return;
+        isDragging = false;
+        cardWrapper.classList.remove('dragging');
+        
+        if (rafId) {
+            cancelAnimationFrame(rafId);
+            rafId = null;
+        }
+        
+        updateSwipeHints(0);
+        
+        const diff = x - startX;
+        const absVelocity = Math.abs(velocity);
+        const shouldSwipe = Math.abs(diff) > distanceThreshold || absVelocity > velocityThreshold;
+        
+        if (shouldSwipe) {
+            gameCard.style.transform = '';
+            gameCard.style.transition = '';
+            
+            if (navigator.vibrate) navigator.vibrate(15);
+            
+            if (diff < 0 || (absVelocity > velocityThreshold && velocity < 0)) {
+                nextCard();
+            } else {
+                prevCard();
+            }
+        } else {
+            // Snap back
+            gameCard.classList.add('snap-back');
+            gameCard.addEventListener('animationend', function onSnapEnd(e) {
+                if (e.animationName === 'snapBack') {
+                    gameCard.classList.remove('snap-back');
+                    gameCard.style.transform = '';
+                    gameCard.style.transition = '';
+                    gameCard.style.willChange = 'auto';
+                    gameCard.removeEventListener('animationend', onSnapEnd);
+                }
+            });
+        }
+    }
+    
+    // Touch events
+    cardWrapper.addEventListener('touchstart', (e) => {
+        handleDragStart(e.changedTouches[0].screenX);
     }, { passive: true });
     
     cardWrapper.addEventListener('touchmove', (e) => {
-        if (!isDragging) return;
-        
-        const currentX = e.changedTouches[0].screenX;
-        const diff = currentX - touchStartX;
-        const maxRotation = 15;
-        const rotation = (diff / window.innerWidth) * maxRotation;
-        
-        gameCard.style.transform = `translateX(${diff}px) rotate(${rotation}deg)`;
-        gameCard.style.transition = 'none';
+        handleDragMove(e.changedTouches[0].screenX);
     }, { passive: true });
     
     cardWrapper.addEventListener('touchend', (e) => {
-        if (!isDragging) return;
-        isDragging = false;
-        
-        touchEndX = e.changedTouches[0].screenX;
-        const diff = touchEndX - touchStartX;
-        
-        gameCard.style.transform = '';
-        gameCard.style.transition = '';
-        
-        const threshold = window.innerWidth * 0.2;
-        
-        if (diff < -threshold) {
-            nextCard();
-        } else if (diff > threshold) {
-            prevCard();
-        }
+        handleDragEnd(e.changedTouches[0].screenX);
     }, { passive: true });
     
-    // Mouse drag for desktop
-    let mouseStartX = 0;
-    let isMouseDragging = false;
-    
+    // Mouse events for desktop
     cardWrapper.addEventListener('mousedown', (e) => {
-        mouseStartX = e.screenX;
-        isMouseDragging = true;
+        handleDragStart(e.screenX);
         cardWrapper.style.cursor = 'grabbing';
     });
     
     document.addEventListener('mousemove', (e) => {
-        if (!isMouseDragging) return;
-        
-        const diff = e.screenX - mouseStartX;
-        const maxRotation = 15;
-        const rotation = (diff / window.innerWidth) * maxRotation;
-        
-        gameCard.style.transform = `translateX(${diff}px) rotate(${rotation}deg)`;
-        gameCard.style.transition = 'none';
+        handleDragMove(e.screenX);
     });
     
     document.addEventListener('mouseup', (e) => {
-        if (!isMouseDragging) return;
-        isMouseDragging = false;
-        cardWrapper.style.cursor = '';
-        
-        const diff = e.screenX - mouseStartX;
-        
-        gameCard.style.transform = '';
-        gameCard.style.transition = '';
-        
-        const threshold = window.innerWidth * 0.15;
-        
-        if (diff < -threshold) {
-            nextCard();
-        } else if (diff > threshold) {
-            prevCard();
+        if (isDragging) {
+            cardWrapper.style.cursor = '';
+            handleDragEnd(e.screenX);
         }
     });
 }

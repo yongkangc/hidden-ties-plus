@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
-    <div class="background-gradient"></div>
-    <div class="floating-hearts"></div>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <div class="background-gradient" aria-hidden="true"></div>
+    <div class="floating-hearts" aria-hidden="true"></div>
     
     <header class="header">
         <div class="logo">
@@ -23,7 +24,7 @@
         </nav>
     </header>
 
-    <main class="container">
+    <main class="container" id="main-content">
         <section class="hero">
             <h1 class="hero-title">Discover What<br><span class="gradient-text">Connects You</span></h1>
             <p class="hero-subtitle">A game that sparks conversations, ignites passion, and brings you closer together.</p>
@@ -64,6 +65,13 @@
                     </label>
                     {% endfor %}
                 </div>
+                
+                <div class="quick-start">
+                    <span class="quick-label">Quick Start:</span>
+                    <button type="button" class="quick-btn" data-cards="5">🚀 Quick 5</button>
+                    <button type="button" class="quick-btn" data-cards="10">⚡ Party 10</button>
+                    <button type="button" class="quick-btn" data-cards="20">🔥 Marathon 20</button>
+                </div>
             </section>
 
             <!-- Step 2: Player Setup -->
@@ -75,8 +83,8 @@
                 </div>
                 
                 <div class="settings-grid">
-                    <div class="setting-group">
-                        <label class="setting-label">Number of Players</label>
+                    <div class="setting-group" role="group" aria-labelledby="playerCountLabel">
+                        <label class="setting-label" id="playerCountLabel">Number of Players</label>
                         <div class="option-pills">
                             {% for i in range(2, 11) %}
                             <label class="pill">
@@ -87,15 +95,23 @@
                         </div>
                     </div>
                     
-                    <div class="setting-group">
-                        <label class="setting-label">Cards Per Person</label>
-                        <div class="option-pills">
-                            {% for i in [5, 10, 15, 20, 25, 30] %}
-                            <label class="pill">
-                                <input type="radio" name="cards_per_player" value="{{ i }}" {% if i == 10 %}checked{% endif %}>
-                                <span>{{ i }}</span>
-                            </label>
-                            {% endfor %}
+                    <div class="advanced-settings">
+                        <button type="button" class="advanced-toggle" id="advancedToggle">
+                            <span>Advanced Settings</span>
+                            <span class="toggle-icon">▼</span>
+                        </button>
+                        <div class="advanced-content" id="advancedContent">
+                            <div class="setting-group" role="group" aria-labelledby="cardsPerPlayerLabel">
+                                                    <label class="setting-label" id="cardsPerPlayerLabel">Cards Per Person</label>
+                                                    <div class="option-pills">
+                                    {% for i in [5, 10, 15, 20, 25, 30] %}
+                                    <label class="pill">
+                                        <input type="radio" name="cards_per_player" value="{{ i }}" {% if i == 10 %}checked{% endif %}>
+                                        <span>{{ i }}</span>
+                                    </label>
+                                    {% endfor %}
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -105,11 +121,11 @@
             <section class="setup-section">
                 <div class="section-header">
                     <span class="step-number">3</span>
-                    <h2>Game Mode</h2>
+                    <h2 id="gameModeLabel">Game Mode</h2>
                     <p class="section-desc">How do you want to play?</p>
                 </div>
                 
-                <div class="mode-grid">
+                <div class="mode-grid" role="radiogroup" aria-labelledby="gameModeLabel">
                     <label class="mode-card">
                         <input type="radio" name="game_mode" value="classic" checked>
                         <div class="mode-content">
@@ -142,6 +158,26 @@
                             <p>Random player each turn</p>
                         </div>
                     </label>
+                </div>
+            </section>
+
+            <!-- Session Summary -->
+            <section class="session-summary" id="sessionSummary">
+                <div class="summary-content">
+                    <div class="summary-item">
+                        <span class="summary-label">Decks</span>
+                        <span class="summary-value" id="summaryDecks">None selected</span>
+                    </div>
+                    <div class="summary-divider"></div>
+                    <div class="summary-item">
+                        <span class="summary-label">Total Cards</span>
+                        <span class="summary-value" id="summaryCards">0</span>
+                    </div>
+                    <div class="summary-divider"></div>
+                    <div class="summary-item">
+                        <span class="summary-label">Est. Time</span>
+                        <span class="summary-value" id="summaryTime">~0 min</span>
+                    </div>
                 </div>
             </section>
 

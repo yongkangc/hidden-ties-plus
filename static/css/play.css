@@ -47,6 +47,16 @@
     background: rgba(255, 255, 255, 0.1);
 }
 
+/* Fallback for browsers that don't support backdrop-filter */
+@supports not (backdrop-filter: blur(20px)) {
+    .play-header {
+        background: rgba(10, 10, 15, 0.95);
+    }
+    .modal {
+        background: rgba(0, 0, 0, 0.95);
+    }
+}
+
 .back-btn span {
     font-size: 1.25rem;
 }
@@ -112,12 +122,18 @@
     max-width: 500px;
     aspect-ratio: 3/4;
     perspective: 1000px;
+    contain: layout style;
 }
 
 .card-wrapper {
     width: 100%;
     height: 100%;
     position: relative;
+    touch-action: pan-y;
+}
+
+.card-wrapper.dragging {
+    touch-action: none;
 }
 
 /* Game Card */
@@ -127,6 +143,21 @@
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    contain: layout style paint;
+    will-change: auto;
+}
+
+/* GPU acceleration for animations */
+.game-card.dragging,
+.game-card.swipe-left,
+.game-card.swipe-right,
+.game-card.enter,
+.game-card.snap-back {
+    will-change: transform, opacity;
+}
+
+.card-wrapper.dragging .game-card {
+    will-change: transform;
 }
 
 .card-inner {
@@ -255,6 +286,17 @@
     }
 }
 
+/* Snap-back animation */
+.game-card.snap-back {
+    animation: snapBack 0.3s ease forwards;
+}
+
+@keyframes snapBack {
+    to {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
 /* Swipe Hints */
 .swipe-hint {
     position: absolute;
@@ -277,6 +319,16 @@
 
 .card-stack:hover .swipe-hint {
     opacity: 0.3;
+}
+
+.swipe-hint.left.active {
+    opacity: 0.8;
+    color: var(--primary);
+}
+
+.swipe-hint.right.active {
+    opacity: 0.8;
+    color: var(--accent);
 }
 
 /* Controls */
@@ -417,14 +469,54 @@
     border-color: var(--primary);
 }
 
-/* Pass Modal */
-.pass-modal {
-    animation: bounce 0.5s ease;
+/* Privacy blur when passing phone */
+.play-container.passing .game-card {
+    filter: blur(20px);
+    transform: scale(0.95);
+    transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-@keyframes bounce {
-    0%, 100% { transform: scale(1); }
+/* Pass Modal */
+.pass-modal {
+    animation: modalSlideUp 0.4s ease;
+}
+
+@keyframes modalSlideUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.pass-subtitle {
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+}
+
+.pass-hint {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-top: 1rem;
+    opacity: 0.7;
+}
+
+.modal-btn.large {
+    padding: 1.25rem 3rem;
+    font-size: 1.1rem;
+}
+
+/* Complete Modal */
+.complete-modal {
+    animation: celebrateIn 0.5s ease;
+}
+
+@keyframes celebrateIn {
+    0% { transform: scale(0.8); opacity: 0; }
     50% { transform: scale(1.05); }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+.complete-stats {
+    color: var(--text-muted);
+    margin-bottom: 2rem;
 }
 
 /* Responsive */
@@ -434,7 +526,18 @@
     }
     
     .progress-container {
-        display: none;
+        margin: 0 0.5rem;
+        max-width: none;
+        flex: 0 0 auto;
+    }
+    
+    .progress-bar {
+        width: 60px;
+        height: 4px;
+    }
+    
+    .progress-text {
+        font-size: 0.75rem;
     }
     
     .play-container {
@@ -458,15 +561,13 @@
     .control-btn {
         flex: 1;
         justify-content: center;
-        padding: 0.875rem 1rem;
+        padding: 0.75rem 1rem;
+        gap: 0.25rem;
     }
     
     .control-text {
-        display: none;
-    }
-    
-    .control-btn.next .control-text {
         display: inline;
+        font-size: 0.85rem;
     }
     
     .swipe-hint {
@@ -489,4 +590,43 @@
     .card-stack:active {
         cursor: grabbing;
     }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .game-card {
+        transition: none;
+    }
+    
+    .game-card.swipe-left,
+    .game-card.swipe-right,
+    .game-card.enter {
+        animation: none;
+    }
+    
+    .modal-content {
+        animation: none;
+    }
+    
+    .play-header {
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+        background: rgba(10, 10, 15, 0.95);
+    }
+    
+    .modal {
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+        background: rgba(0, 0, 0, 0.95);
+    }
+}
+
+/* Confetti Canvas */
+#confettiCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 999;
 }

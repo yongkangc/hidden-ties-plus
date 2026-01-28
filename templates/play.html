@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Playing - Hidden Ties Plus</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/play.css') }}">
 </head>
 <body class="play-body">
-    <div class="play-background"></div>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <div class="play-background" aria-hidden="true"></div>
     
     <!-- Top Bar -->
     <header class="play-header">
@@ -30,7 +31,7 @@
     </header>
 
     <!-- Main Card Area -->
-    <main class="play-container">
+    <main class="play-container" id="main-content">
         <div class="card-stack">
             <div class="card-wrapper" id="cardWrapper">
                 <div class="game-card" id="gameCard">
@@ -39,15 +40,15 @@
                         <div class="card-text" id="cardText"></div>
                         <div class="card-pack" id="cardPack"></div>
                     </div>
-                    <div class="card-glow"></div>
+                    <div class="card-glow" aria-hidden="true"></div>
                 </div>
             </div>
             
             <!-- Swipe Hints -->
-            <div class="swipe-hint left">
+            <div class="swipe-hint left" aria-hidden="true">
                 <span>←</span>
             </div>
-            <div class="swipe-hint right">
+            <div class="swipe-hint right" aria-hidden="true">
                 <span>→</span>
             </div>
         </div>
@@ -56,11 +57,11 @@
         <div class="controls">
             <button class="control-btn prev" id="prevBtn" disabled>
                 <span class="control-icon">←</span>
-                <span class="control-text">Previous</span>
+                <span class="control-text">Back</span>
             </button>
             
             <button class="control-btn skip" id="skipBtn">
-                <span class="control-icon">↻</span>
+                <span class="control-icon">↷</span>
                 <span class="control-text">Skip</span>
             </button>
             
@@ -72,11 +73,11 @@
     </main>
 
     <!-- Game Complete Modal -->
-    <div class="modal" id="completeModal">
-        <div class="modal-content">
-            <div class="modal-emoji">🎉</div>
-            <h2>Game Complete!</h2>
-            <p>You've gone through all {{ questions | length }} cards.</p>
+    <div class="modal" id="completeModal" role="dialog" aria-modal="true" aria-labelledby="completeTitle" aria-describedby="completeDesc">
+        <div class="modal-content complete-modal">
+            <div class="modal-emoji" aria-hidden="true">🎉</div>
+            <h2 id="completeTitle">Amazing Session!</h2>
+            <p id="completeDesc" class="complete-stats">You played through all {{ questions | length }} cards</p>
             <div class="modal-actions">
                 <a href="{{ url_for('home') }}" class="modal-btn secondary">New Game</a>
                 <button class="modal-btn primary" onclick="restartGame()">Play Again</button>
@@ -85,14 +86,20 @@
     </div>
 
     <!-- Pass Phone Modal (for multiplayer) -->
-    <div class="modal" id="passModal">
+    <div class="modal" id="passModal" role="dialog" aria-modal="true" aria-labelledby="passTitle" aria-describedby="passDesc">
         <div class="modal-content pass-modal">
-            <div class="modal-emoji">📱</div>
-            <h2>Pass to Player <span id="nextPlayerNum">2</span></h2>
-            <p>Hand the phone to the next player</p>
-            <button class="modal-btn primary" onclick="closePassModal()">I'm Ready</button>
+            <div class="modal-emoji" aria-hidden="true">📱</div>
+            <h2 id="passTitle">Pass to Player <span id="nextPlayerNum">2</span></h2>
+            <p id="passDesc" class="pass-subtitle">Hand the phone to the next player</p>
+            <button class="modal-btn primary large" onclick="closePassModal()">
+                I'm Ready
+            </button>
+            <p class="pass-hint">Tap when the next player is ready</p>
         </div>
     </div>
+
+    <!-- Confetti Canvas -->
+    <canvas id="confettiCanvas" aria-hidden="true"></canvas>
 
     <script>
         const questions = {{ questions | tojson | safe }};
