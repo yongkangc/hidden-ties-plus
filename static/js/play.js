@@ -193,6 +193,7 @@ function updateProgress() {
 // Navigate to next card
 function nextCard() {
     if (currentIndex < totalCards - 1) {
+        gameCard.classList.remove('enter');
         gameCard.classList.add('swipe-left');
         
         gameCard.addEventListener('animationend', function onSwipeLeft(e) {
@@ -229,6 +230,7 @@ function nextCard() {
 // Navigate to previous card
 function prevCard() {
     if (currentIndex > 0) {
+        gameCard.classList.remove('enter');
         gameCard.classList.add('swipe-right');
         
         gameCard.addEventListener('animationend', function onSwipeRight(e) {
@@ -256,6 +258,7 @@ function skipCard() {
         const skipped = questions.splice(currentIndex, 1)[0];
         questions.push(skipped);
         
+        gameCard.classList.remove('enter');
         gameCard.classList.add('swipe-left');
         gameCard.addEventListener('animationend', function onSkip(e) {
             if (e.animationName !== 'swipeLeft') return;
