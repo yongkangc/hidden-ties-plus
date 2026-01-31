@@ -71,7 +71,7 @@ def play():
             for q in pack.get('questions', []):
                 if isinstance(q, str):
                     card_text = q
-                    card_type = 'action' if any(x in q.lower() for x in ['kiss', 'touch', 'hug', 'hold', 'whisper']) else 'question'
+                    card_type = 'action' if (q.upper().startswith('ACTION:') or any(x in q.lower() for x in ['kiss', 'touch', 'hug', 'hold', 'whisper'])) else 'question'
                     card_pick = 1
                 else:
                     card_text = q.get('text', '')
